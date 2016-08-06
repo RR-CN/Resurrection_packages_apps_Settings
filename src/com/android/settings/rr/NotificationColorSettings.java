@@ -70,8 +70,6 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
             "notification_icon_color";
     private static final String PREF_CLEAR_ALL_ICON_COLOR =
             "notification_drawer_clear_all_icon_color";
-    private static final String PREF_QS_TRANSPARENT_SHADE = "qs_transparent_shade";
-    private static final String PREF_QS_TRANSPARENT_HEADER = "qs_transparent_header";
     private static final String PREF_TRANSPARENT_VOLUME_DIALOG = "transparent_volume_dialog";
     private static final String PREF_TRANSPARENT_POWER_MENU = "transparent_power_menu";
     private static final String PREF_TRANSPARENT_POWER_DIALOG_DIM = "transparent_power_dialog_dim";
@@ -90,6 +88,7 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
     private static final String PREF_QS_PANEL_LOGO = "qs_panel_logo";
     private static final String PREF_QS_PANEL_LOGO_COLOR = "qs_panel_logo_color";
     private static final String PREF_QS_PANEL_LOGO_ALPHA = "qs_panel_logo_alpha";
+    private static final String PREF_NOTIFICATION_ALPHA = "notification_alpha";
     private ListPreference mQSPanelLogo;
     private ColorPickerPreference mQSPanelLogoColor;
     private SeekBarPreferenceCham mQSPanelLogoAlpha;
@@ -117,12 +116,11 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
     private ColorPickerPreference mBgGutsColor;
     private ColorPickerPreference mAppIconBgColor;
     private ColorPickerPreference mIconColor;
-    private ColorPickerPreference mClearAllIconColor;
-    private SeekBarPreference mQSShadeAlpha;
-    private SeekBarPreferenceCham mQSHeaderAlpha;	
+    private ColorPickerPreference mClearAllIconColor;	
     private SeekBarPreferenceCham mVolumeDialogAlpha;	
     private SeekBarPreferenceCham mPowerMenuAlpha;
     private SeekBarPreferenceCham mPowerDialogDim;
+    private SeekBarPreferenceCham mNotificationsAlpha;
     private ListPreference mVolumeDialogStroke;
     private ColorPickerPreference mVolumeDialogStrokeColor;
     private SeekBarPreferenceCham mVolumeDialogStrokeThickness;
@@ -174,7 +172,7 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
 	    mBgColor.setNewPreviewColor(intColor);
 	    hexColor = String.format("#%08x", (0xffffffff & intColor));
 	    mBgColor.setSummary(hexColor);
-	    mBgColor.setDefaultColors(RR_BLUE_GREY, RR_BLUE_GREY);
+	    mBgColor.setResetColors(RR_BLUE_GREY, RR_BLUE_GREY);
 	    mBgColor.setOnPreferenceChangeListener(this);
 
 	    mBgGutsColor =
@@ -184,7 +182,7 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
 	    mBgGutsColor.setNewPreviewColor(intColor);
 	    hexColor = String.format("#%08x", (0xffffffff & intColor));
 	    mBgGutsColor.setSummary(hexColor);
-	    mBgGutsColor.setDefaultColors(SYSTEMUI_SECONDARY, SYSTEMUI_SECONDARY);
+	    mBgGutsColor.setResetColors(SYSTEMUI_SECONDARY, SYSTEMUI_SECONDARY);
 	    mBgGutsColor.setOnPreferenceChangeListener(this);
 
 	    PreferenceCategory colorCat =
@@ -197,24 +195,8 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
 	    mClearAllIconColor.setNewPreviewColor(intColor);
 	    hexColor = String.format("#%08x", (0xffffffff & intColor));
 	    mClearAllIconColor.setSummary(hexColor);
-	    mClearAllIconColor.setDefaultColors(WHITE, HOLO_BLUE_LIGHT);
+	    mClearAllIconColor.setResetColors(WHITE, HOLO_BLUE_LIGHT);
 	    mClearAllIconColor.setOnPreferenceChangeListener(this);
-
-	    // QS shade alpha
-	    mQSShadeAlpha =
-            (SeekBarPreference) findPreference(PREF_QS_TRANSPARENT_SHADE);
-	    int qSShadeAlpha = Settings.System.getInt(mResolver,
-            Settings.System.QS_TRANSPARENT_SHADE, 255);
-	    mQSShadeAlpha.setValue(qSShadeAlpha / 1);
-	    mQSShadeAlpha.setOnPreferenceChangeListener(this);
-
-	    // QS header alpha
-            mQSHeaderAlpha =
-                    (SeekBarPreferenceCham) findPreference(PREF_QS_TRANSPARENT_HEADER);
-            int qSHeaderAlpha = Settings.System.getInt(mResolver,
-                    Settings.System.QS_TRANSPARENT_HEADER, 255);
-            mQSHeaderAlpha.setValue(qSHeaderAlpha / 1);
-            mQSHeaderAlpha.setOnPreferenceChangeListener(this);
 
 	    // Volume dialog alpha
             mVolumeDialogAlpha =
@@ -231,6 +213,14 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
                     Settings.System.TRANSPARENT_POWER_MENU, 100);
             mPowerMenuAlpha.setValue(powerMenuAlpha / 1);
             mPowerMenuAlpha.setOnPreferenceChangeListener(this);
+
+            // Notifications alpha
+            mNotificationsAlpha =
+                    (SeekBarPreferenceCham) findPreference(PREF_NOTIFICATION_ALPHA);
+            int notificationsAlpha = Settings.System.getInt(mResolver,
+                    Settings.System.NOTIFICATION_ALPHA, 255);
+            mNotificationsAlpha.setValue(notificationsAlpha / 1);
+            mNotificationsAlpha.setOnPreferenceChangeListener(this);
 
 	    // Power/reboot dialog dim
             mPowerDialogDim =
@@ -473,17 +463,7 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
                 Settings.System.NOTIFICATION_DRAWER_CLEAR_ALL_ICON_COLOR, intHex);
             preference.setSummary(hex);
             return true;
-        } else if (preference == mQSShadeAlpha) {
-            int alpha = (Integer) newValue;
-            Settings.System.putInt(mResolver,
-                    Settings.System.QS_TRANSPARENT_SHADE, alpha * 1);
-            return true;
-	}  else if (preference == mQSHeaderAlpha) {
-                int alpha = (Integer) newValue;
-                Settings.System.putInt(mResolver,
-                        Settings.System.QS_TRANSPARENT_HEADER, alpha * 1);
-                return true;
-	}  else if (preference == mVolumeDialogAlpha) {
+        } else if (preference == mVolumeDialogAlpha) {
                 int alpha = (Integer) newValue;
                 Settings.System.putInt(mResolver,
                         Settings.System.TRANSPARENT_VOLUME_DIALOG, alpha * 1);
@@ -492,6 +472,11 @@ public class NotificationColorSettings extends SettingsPreferenceFragment implem
 		int alpha = (Integer) newValue;
                 Settings.System.putInt(mResolver,
                         Settings.System.TRANSPARENT_POWER_MENU, alpha * 1);
+                return true;
+        } else if (preference == mNotificationsAlpha) {
+                int alpha = (Integer) newValue;
+                Settings.System.putInt(mResolver,
+                        Settings.System.NOTIFICATION_ALPHA, alpha * 1);
                 return true;
 	}  else if (preference == mPowerDialogDim) {
 		int alpha = (Integer) newValue;
