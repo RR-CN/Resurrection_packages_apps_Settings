@@ -16,14 +16,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About RR -->
-  <string name="about_rr_settings">About Resurrection</string>
-  <string name="about_rr">About Resurrection</string>
+  <string name="about_rr_settings">Thông tin về Resurrection</string>
+  <string name="about_rr">Thông tin về Resurrection</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">Everything about the Rom</string>
-  <string name="rr_donate">Donate to Development</string>
-  <string name="rr_donate_summary">Show your support to Resurrection ROM</string>
-  <string name="app_name">Resurrection</string>
-  <string name="devs">Developers</string>
+  <string name="about_r0m_summary">Tất cả mọi thứ về Rom</string>
+  <string name="rr_donate">Quyên góp cho nhà phát triển</string>
+  <string name="rr_donate_summary">Hiện hổ trợ của bạb cho ROM Recsurection</string>
+  <string name="app_name">Recsurection</string>
+  <string name="devs">Nhà phát triển</string>
   <string name="github_westcrip">https://github.com/westcripp</string>
   <string name="github_varund7726">https://github.com/varund7726</string>
   <string name="github_akhilnarang">https://github.com/akhilnarang</string>
@@ -33,72 +33,72 @@
   <string name="github_omni">https://github.com/omnirom/</string>
   <string name="github_xenon92">https://github.com/xenon92</string>
   <string name="github_t4n017">https://github.com/t4n017</string>
-  <string name="rr">Links</string>
+  <string name="rr">Liên kết</string>
   <string name="rr_website_title">Website</string>
-  <string name="rr_website_summary">Get more information about Resurrection Rom</string>
-  <string name="rr_forum_title">Forum</string>
-  <string name="rr_forum_summary">Be a member of Resurrection forum</string>
+  <string name="rr_website_summary">Xem thêm thông tin về Rom Recsurrection</string>
+  <string name="rr_forum_title">Diễn đàn</string>
+  <string name="rr_forum_summary">Là thành viên của diễn đàn Recsurrection</string>
   <string name="rr_source_title">Github</string>
-  <string name="rr_source_summary">Resurrection Sources</string>
-  <string name="rr_irc_title">Join me on IRC</string>
+  <string name="rr_source_summary">Nguồn Resurrection</string>
+  <string name="rr_irc_title">Tham gia trên IRC</string>
   <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
   <string name="rr_facebook_title">Facebook</string>
-  <string name="rr_facebook_summary">Facebook community</string>
+  <string name="rr_facebook_summary">Cộng đồng Facebook</string>
   <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Google+ community</string>
-  <string name="maincontributors_title">Developer</string>
-  <string name="maintainer_categorie_title">Official Devices</string>
-  <string name="sourcebase_title">Source Base</string>
-  <string name="title_about">About Resurrection</string>
+  <string name="rr_google_plus_summary">Cộng đồng Google+</string>
+  <string name="maincontributors_title">Nhà phát triển</string>
+  <string name="maintainer_categorie_title">Các thiết bị chính thức</string>
+  <string name="sourcebase_title">Cắn cứ nguồn</string>
+  <string name="title_about">Thông tin về Recsurrection</string>
   <string name="dev_categorie_title">Developer &amp; Maintainer</string>
-  <string name="rr_mod_version">Resurrection version</string>
+  <string name="rr_mod_version">Phiên bản Recsurrection</string>
   <!-- Nfc settings -->
-  <string name="nfc_polling_mode_title">NFC polling mode</string>
-  <string name="nfc_polling_mode_screen_off">Screen off</string>
-  <string name="nfc_polling_mode_screen_locked">Screen on, locked</string>
-  <string name="nfc_polling_mode_screen_unlocked">Screen on, unlocked (default)</string>
+  <string name="nfc_polling_mode_title">Chế độ kiểm tra NFC</string>
+  <string name="nfc_polling_mode_screen_off">Tắt màn hình</string>
+  <string name="nfc_polling_mode_screen_locked">Bật màn hình, bị khóa</string>
+  <string name="nfc_polling_mode_screen_unlocked">Bật màn hình, được mở khóa (mặc định)</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
-  <string name="themes_settings_title_rr">Theme Chooser</string>
+  <string name="themes_settings_title_rr">Chọn chủ đề</string>
   <!-- RR Changelog-->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_title_summary">View recent changes in ROM</string>
-  <string name="changelog_loading">Loading changelog...</string>
-  <string name="changelog_error">Unable to load changelog</string>
-  <string name="changelog_unknown">Unknown</string>
-  <string name="changelog_version">Version</string>
+  <string name="changelog_title">Những thay đổi</string>
+  <string name="changelog_title_summary">Xem các thay đổi gần đây trong ROM</string>
+  <string name="changelog_loading">Đang nạp các thay đổi...</string>
+  <string name="changelog_error">Không thể nạp các thay đổi</string>
+  <string name="changelog_unknown">Không rõ</string>
+  <string name="changelog_version">Phiên bản</string>
   <!-- Share RR ROM -->
-  <string name="share_rr">Share Rom</string>
-  <string name="share_rr_summary">Let people know you use Resurrection Rom</string>
-  <string name="share_message">Try Resurrection Rom! http://forum.resurrectionremix.com/</string>
-  <string name="share_chooser_title">Share Resurrection Remix via..</string>
+  <string name="share_rr">Chia sẻ Rom</string>
+  <string name="share_rr_summary">Cho mọi người biết bạn sử dụng Rom Recsurrection</string>
+  <string name="share_message">Thử Rom Resurrection! http://forum.resurrectionremix.com/</string>
+  <string name="share_chooser_title">Chia sẻ Resurrection Remix qua..</string>
   <!-- RR settings categories -->
-  <string name="header_category_personalization">Personalization</string>
-  <string name="rr_header_options">Header Items</string>
-  <string name="interface_settings_title">Interface</string>
-  <string name="clock_settings_title">Clock Settings</string>
-  <string name="rr_cat_title">Categories</string>
-  <string name="rr_settings_title">Configurations</string>
+  <string name="header_category_personalization">Cá nhân hóa</string>
+  <string name="rr_header_options">Tiêu đề mục</string>
+  <string name="interface_settings_title">Giao diện</string>
+  <string name="clock_settings_title">Thiết đặt đồng hồ</string>
+  <string name="rr_cat_title">Danh mục</string>
+  <string name="rr_settings_title">Cấu hình</string>
   <!-- RR Feature lists-->
-  <string name="features_title">ROM Feature Lists</string>
-  <string name="features_title_summary">View available ROM features</string>
-  <string name="features_loading">Loading list ...</string>
-  <string name="features_error">Unable to load list</string>
-  <string name="features_unknown">Unknown</string>
+  <string name="features_title">Danh sách tính năng ROM</string>
+  <string name="features_title_summary">Xem các tính năng có sẵn trong ROM</string>
+  <string name="features_loading">Đang tải danh sách...</string>
+  <string name="features_error">Không thể nạp danh sách</string>
+  <string name="features_unknown">Không rõ</string>
   <string name="features_version">1.0</string>
   <!-- Heads Up button -->
-  <string name="enable_headsup_button_extended_statusbar_title">Extended statusbar button</string>
+  <string name="enable_headsup_button_extended_statusbar_title">Nút trạng thái mở rộng</string>
   <string name="enable_headsup_button_extended_statusbar_summary">Enable/Disable action for the heads up button in the expanded statusbar area</string>
   <!--Categories-->
-  <string name="clock_category">Clock </string>
-  <string name="clock_custom">Clock Customizations</string>
-  <string name="battery_category">Battery Customizations</string>
-  <string name="weather_category">Weather Settings</string>
-  <string name="icons_category">Status Bar Icons</string>
-  <string name="misc_category">Misc Statusbar Settings</string>
-  <string name="button_controller_title">Button controller</string>
+  <string name="clock_category">Đồng hồ </string>
+  <string name="clock_custom">Tùy chỉnh đồng hồ</string>
+  <string name="battery_category">Tùy chỉnh pin</string>
+  <string name="weather_category">Cài đặt thời tiết</string>
+  <string name="icons_category">Biểu tượng thanh trạng thái</string>
+  <string name="misc_category">Cài đặt thanh trạng thái linh tinh</string>
+  <string name="button_controller_title">Nút điều khiển</string>
   <string name="recents_panel_clear_all_category"> Clear All Tweaks</string>
-  <string name="recents_panel_recents_view"> Recents View</string>
+  <string name="recents_panel_recents_view"> Xem gần đây</string>
   <string name="recents_panel_alternative_recents">Alternative Recents</string>
   <string name="recents_panel_recents_bars">Recents Bars</string>
   <string name="interface_category"> Interface</string>
@@ -150,7 +150,7 @@
   <string name="color_picker_help_ab_color_apply_summary">The color preview is always visible.\nIf the new color doesn\'t equals the old color, the color preview will be expanded, to allow apply the new color.</string>
   <string name="color_picker_help_ab_menu_title">Menu button:</string>
   <string name="color_picker_help_ab_menu_reset_title">Reset:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or Darkkat color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or RR color without applying the new color.</string>
   <string name="color_picker_help_ab_menu_hex_title">Hex value:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
@@ -163,7 +163,7 @@
   <string name="color_picker_help_color_buttons_title">Color buttons:</string>
   <string name="color_picker_help_favorites_title">Favorites:</string>
   <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(DarkKat, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Palette:\n(RR, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
   <string name="color_picker_help_button_ok_title">OK</string>
@@ -321,6 +321,7 @@
   <string name="rr_qs">Quick Settings</string>
   <string name="rr_brightness_cat">Brightness Slider</string>
   <string name="rr_qs_title">QuickSettings panel </string>
+  <string name="qstile_advanced_category">Advanced</string>
   <!-- Quick settings quick pull down -->
   <string name="status_bar_quick_qs_pulldown_title">Quick Pulldown</string>
   <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
@@ -431,6 +432,8 @@
   <string name="rr_lockscreen_style">Styles</string>
   <string name="double_tap_ls">Double Tap Sleep LockScreen</string>
   <string name="double_tap_ls_summary">Double tap lockscreen to put the device to sleep</string>
+  <string name="toggle_package_install_overlay_check_title">Disable permission overlay check</string>
+  <string name="toggle_package_install_overlay_check_summary">WARNING\u003A this disables a security check to prevent tapjacking! Use only if you understand the consequences.</string>
   <string name="ls_bouncer_title">Secure lockscreen bouncer</string>
   <string name="ls_bouncer_summary">Open lockscreen directly to pin/pattern/password when there are %1$s notifications present</string>
   <string name="ls_bouncer_on">On (default)</string>
@@ -457,6 +460,29 @@
   <string name="lockscreen_see_through_title">Lockscreen blur</string>
   <string name="lockscreen_see_through_summary">Blurs and displays the content behind your lockscreen.</string>
   <string name="lockscreen_blur_radius">Blur effect intensity</string>
+  <string name="rr_settings_blur_cat">Blur personalizations</string>
+  <string name="blurred_status_bar_expanded_enabled_pref">Blur Background </string>
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Blur the background when you pull down the status bar</string>
+  <string name="translucent_notifications_pref">Translucent Notifications</string>
+  <string name="translucent_notifications_pref_summary">Set the background of notifications translucent</string>
+  <string name="translucent_header_pref">Transparent Status Bar Header </string>
+  <string name="translucent_header_pref_summary">Adjust Header Transparency</string>
+  <string name="translucent_quick_settings_pref">Transparent Quick Settings Panel</string>
+  <string name="translucent_quick_settings_pref_summary">Adjust the background transparency of Qs Panel </string>
+  <string name="transluency_level_universal">Transparency level</string>
+  <string name="blur_expstatus_cat">Expanded StatusBar </string>
+  <string name="blur_notifications_cat">Notifications</string>
+  <string name="blur_header_cat">StatusBar Header</string>
+  <string name="blur_qs_cat">Quick Settings</string>
+  <string name="blur_recents_cat">Recents</string>
+  <string name="blurred_recent_app_enabled_pref">Blurred Recents apps background </string>
+  <string name="blurred_recent_app_enabled_pref_summary">Blur the background of recents apps</string>
+  <string name="blurred_scale">Blur Scale</string>
+  <string name="blurred_scale_summary">Quailty of blur image</string>
+  <string name="blurred_radius">Blur Radius</string>
+  <string name="blurred_radius_summary">Amount of blur</string>
+  <string name="blur_cat_notice">Notice</string>
+  <string name="blur_cat_notice_summary">Blur personlizations are disabled during Keyguard view! Please Turn off Panel Transperancy to get best Results. Panel Transparency will not work with blur options</string>
   <!-- CM Lockscreen shortcuts -->
   <string name="lockscreen_targets_message">Bottom shortcuts</string>
   <string name="lockscreen_targets_summary">Change the bottom corner shortcuts</string>
@@ -534,6 +560,8 @@
   <!-- Toast Icons -->
   <string name="toast_icon_title">Toast icon</string>
   <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+  <string name="toast_text_color">Toast Text Color</string>
+  <string name="toast_icon_color">Toast Icon Color</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Color Picker</string>
   <string name="press_color_to_apply">Press on color below to apply</string>
@@ -681,6 +709,14 @@
   <string name="battery_bar_style_regular">Regular</string>
   <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
   <string name="battery_bar_style_reversed">Reversed</string>
+  <string name="battery_bar_use_gradient_color">Use gradient color</string>
+  <string name="battery_bar_gradient_color_summary">Use gradient color as a scale for the battery level</string>
+  <string name="battery_bar_high_color">High level color\"</string>
+  <string name="battery_bar_low_color">Low level color\"</string>
+  <string name="battery_bar_hide">Hide</string>
+  <string name="battery_bar_statusbar">Statusbar</string>
+  <string name="battery_bar_navbar_top">Top of navbar</string>
+  <string name="battery_bar_navbar_bottom">Bottom of navbar</string>
   <string name="help">Help</string>
   <string name="reset_message">Reset all entries to default?</string>
   <string name="attention">Attention</string>
@@ -1626,7 +1662,7 @@
   <string name="hide_panel_ampm_summary_on">Am/Pm Visible</string>
   <string name="hide_panel_ampm_summary_off">Am/Pm Hidden</string>
   <string name="hide_battery_summary_on">Battery Visible</string>
-  <string name="hide_battery_summary_off">Batteryu Hidden</string>
+  <string name="hide_battery_summary_off">Battery Hidden</string>
   <string name="hide_icons_summary_on">System Icons Visible</string>
   <string name="hide_icons_summary_off">System Icons Hidden</string>
   <string name="hide_user_summary_on">User Switch Visible</string>
@@ -1659,6 +1695,14 @@
   <!-- QS Tiles Rows -->
   <string name="qs_color_switch">Custom Qs Colors</string>
   <string name="qs_color_switch_summary">Overrides Theme Colors.</string>
+  <string name="qs_color_switch">Custom Qs Colors</string>
+  <string name="qs_custom_master_switch_summary">Customize Border of Quick Settings Panel.Use at your own risk .Might not be compatible with some themes.</string>
+  <string name="qs_custom_master_switch_title">Quick Settings Corner and Stroke</string>
+  <string name="qs_header_master_switch_summary">Customize Border of Header.Use at your own risk .Might not be compatible with some themes.</string>
+  <string name="qs_header_master_switch_title">Header Corner and Stroke</string>
+  <string name="qs_color_switch_summary">Overrides Theme Colors.</string>
+  <string name="qs_color_switch_summary_title">Quick Settings Panel Colors</string>
+  <string name="qs_color_switch_summary_main">Colorize various Elements on Qs Panel. NOTE: Settings icon colors might disable qs icon animation. Use at your own risk</string>
   <string name="qs_header_text_color">Qs Detail Text</string>
   <string name="qs_header_color">Header Background</string>
   <string name="qs_text_color">Text Color</string>
@@ -1668,6 +1712,41 @@
   <string name="qs_brightness_color">Brightness Slider</string>
   <string name="quick_settings_colors">QS Colors</string>
   <string name="qs_colors_summary">Customize Quick Panel Colors</string>
+  <string name="default_qs_colors">Default</string>
+  <string name="rr_qs_colors">Normal</string>
+  <string name="gradient_qs_colors">Gradient</string>
+  <string name="rr_qs_colors">Normal</string>
+  <string name="rr_qs_colors_no_icon">Normal Without Colorized Icon</string>
+  <string name="gradient_qs_colors_no_icon">Gradient Without Colorized Icons</string>
+  <string name="rr_bg_colors_title">Regular</string>
+  <string name="rr_bg_colors_general_title">General Colors</string>
+  <string name="volume_dialog_color_switch_title">Volume Dialog Colors</string>
+  <string name="ripple_title">Slider Ripple Color</string>
+  <string name="brightness_slider_color_title">Brightness Slider Color</string>
+  <string name="brightness_slider_bg_color_title">Brightness Slider Background Color</string>
+  <string name="header_center_color_title">Header Start Color</string>
+  <string name="header_background_center_color_title">Header Center Color</string>
+  <string name="header_background_end_color_title">Header End Color</string>
+  <string name="header_background_gradient_orientation_title">Header Orientation</string>
+  <!-- Gradient Backgrounds Settings -->
+  <string name="gradient_bg_colors_title">Gradient Background Color</string>
+  <string name="background_gradient_use_center_color_title">Use a center color</string>
+  <string name="background_gradient_use_center_color_summary">Enable to use a center color for the gradient</string>
+  <string name="background_header_gradient_use_center_color_title">Use a center color on Header</string>
+  <string name="background_header_gradient_use_center_color_summary">Enable to use a center color for the gradient on Header</string>
+  <string name="background_start_color_title">Start</string>
+  <string name="background_center_color_title">Center</string>
+  <string name="background_end_color_title">End</string>
+  <string name="background_gradient_orientation_title">Orientation</string>
+  <string name="background_gradient_orientation_dlg_title">Choose the gradient orientation</string>
+  <string name="background_gradient_orientation_l_r_title">from left to right</string>
+  <string name="background_gradient_orientation_bl_tr_title">from bottom left to top right</string>
+  <string name="background_gradient_orientation_b_t_title">from bottom to top</string>
+  <string name="background_gradient_orientation_br_tl_title">from bottom right to top left</string>
+  <string name="background_gradient_orientation_r_l_title">from right to left</string>
+  <string name="background_gradient_orientation_tr_bl_title">from top right to bottom left</string>
+  <string name="background_gradient_orientation_t_b_title">from top to bottom</string>
+  <string name="background_gradient_orientation_tl_br_title">from top left to bottom right</string>
   <!-- Fingerprint Authentication Vibration -->
   <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
   <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
@@ -1809,6 +1888,7 @@
   <string name="fling_trails_enable_title">Enable gesture trails</string>
   <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
   <string name="fling_trails_color_title">Trail color</string>
+  <string name="fling_trails_width_title">Trail width</string>
   <string name="fling_appearance">Appearance</string>
   <string name="fling_show_logo_title">Show Fling logo</string>
   <string name="fling_animate_logo_title">Animate logo</string>
@@ -1897,6 +1977,9 @@
   <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
   <string name="systemui_tuner_qs_title">Quick Settings Tiles</string>
   <string name="rr_tuner_summary">This Can Also Be Accessed By Longpressing Settings Button in Notification Header</string>
+  <string name="qs_3_columns">Three</string>
+  <string name="qs_4_columns">Four</string>
+  <string name="qs_5_columns">Five</string>
   <!-- QuickSettings main tiles -->
   <string name="qs_main_tiles_title">Enlarge first row</string>
   <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
@@ -2001,6 +2084,11 @@
   <string name="volume_dialog_corner_radius_title">Volume dialog corner radius</string>
   <string name="volume_dialog_dash_width_title">Volume dialog stroke dash width</string>
   <string name="volume_dialog_dash_gap_title">Volume dialog stroke dash gap</string>
+  <string name="volume_dialog_slider_icon_color_title">Slider Icon</string>
+  <string name="volume_dialog_slider_color_title">Slider</string>
+  <string name="volume_dialog_slider_inactive_color_title">Inactive Slider</string>
+  <string name="volume_dialog_expand_button_color_title">Expand Button</string>
+  <string name="volume_dialog_icon_title">Icon</string>
   <!-- Volume dialog timeout -->
   <string name="volume_dialog_timeout_title">Volume dialog timeout</string>
   <!-- QS stroke settings -->
@@ -2022,6 +2110,23 @@
   <string name="qs_panel_logo_custom">Custom color</string>
   <string name="qs_panel_logo_color_title">QS panel logo color</string>
   <string name="qs_panel_logo_alpha_title">QS panel logo transparency</string>
+  <string name="qs_panel_logo_1">Pure</string>
+  <string name="qs_panel_logo_2">Classic</string>
+  <string name="qs_panel_logo_3">PitchBlack</string>
+  <string name="qs_panel_logo_4">PitchBlack 2</string>
+  <string name="qs_panel_logo_default">Default</string>
+  <string name="qs_panel_logo_style_title">Logo Style</string>
+  <!-- Stroke Settings -->
+  <string name="stroke_category_title">Header Stroke Settings</string>
+  <string name="stroke_title">Stroke</string>
+  <string name="stroke_disabled">Disabled</string>
+  <string name="stroke_accent">Accent color</string>
+  <string name="stroke_custom">Custom color</string>
+  <string name="stroke_color_title">Stroke Color</string>
+  <string name="stroke_thickness_title">Stroke Thickness</string>
+  <string name="corner_radius_title">Corner Radius</string>
+  <string name="dash_width_title">Stroke Dash Width</string>
+  <string name="dash_gap_title">Stroke Dash Gap</string>
   <string name="notification_cat_power">Power Menu</string>
   <string name="expansion_view_animation_title">Task Manager Animation</string>
   <string name="expansion_view_animation_summary">Change the enter/exit animation of the panel change</string>
@@ -2046,7 +2151,72 @@
   <!-- ADB always notify -->
   <string name="adb_always_notify">Debugging always notify</string>
   <string name="adb_always_notify_summary">Always display a notification when debugging is enabled, even if not connected</string>
+  <string name="qs_data_tile_advanced_title">Advanced Data Tile</string>
+  <string name="qs_data_tile_advanced_summary_on">Tapping data tile will enable /disable mobile data </string>
+  <string name="qs_data_tile_advanced_summary_off">Tapping data tile will open detail view </string>
   <!-- Instant reboot -->
   <string name="advanced_reboot_oneclick">One click reboot</string>
   <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
+  <!-- Halo -->
+  <string name="rr_halo_enable_title">Enable Halo</string>
+  <string name="rr_halo_enable_summary">Enable Halo Button in extended statusbar. Tap on halo icon in Statusbar Header to enable halo.</string>
+  <string name="halo_settings_title">Halo</string>
+  <string name="halo_behavior_title">Halo Behavior</string>
+  <string name="halo_hide_title">Hide Halo after activity</string>
+  <string name="halo_hide_summary">Halo will appear for incoming tasks and scroll out of sight after a while</string>
+  <string name="halo_pause_title">Pause active app</string>
+  <string name="halo_pause_summary">When opening an app with Halo the underlying app will get paused</string>
+  <string name="halo_notification_msgbox_title">Enable message pop-up</string>
+  <string name="halo_notification_msgbox_summary">Show message box for incoming notifications</string>
+  <string name="halo_unlock_ping_title">Ping on unlock</string>
+  <string name="halo_unlock_ping_summary">Halo will ping when device is unlocked if new notifications were received</string>
+  <string name="halo_size_title">Halo size</string>
+  <string name="halo_size_summary">Defines how big Halo is going to be</string>
+  <string name="halo_size_miniscule">Miniscule</string>
+  <string name="halo_size_small">Small</string>
+  <string name="halo_size_default">Normal (default)</string>
+  <string name="halo_size_large">Large</string>
+  <string name="halo_size_gigantic">Gigantic</string>
+  <string name="halo_size_monster">Monster</string>
+  <string name="halo_notification_count_title">Notification count</string>
+  <string name="halo_notification_count_summary">Display notification counts on Halo</string>
+  <string name="halo_notification_count_none">None</string>
+  <string name="halo_notification_count_total">Total</string>
+  <string name="halo_notification_count_individual">Per app</string>
+  <string name="halo_notification_count_both">Both</string>
+  <string name="halo_msgbox_animation_title">Message box animation</string>
+  <string name="halo_msgbox_animation_summary">Halo message box animation for incoming notifications</string>
+  <string name="halo_msgbox_animation_none">None</string>
+  <string name="halo_msgbox_animation_flip">Flip</string>
+  <string name="halo_floating_windows">Floating Windows options</string>
+  <string name="halo_floating_windows_summary">Shortcut to Floating Windows options so you can use or not use with HALO</string>
+  <string name="halo_floating_notifications_title">Use Floating Mode</string>
+  <string name="halo_floating_notifications_summary">Always launch activities from notifications in Float Mode.</string>
+  <string name="halo_enable_float_summary">Enable floating mode first.</string>
+  <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+  <string name="app_halo_label_black">Blacklist from HALO</string>
+  <string name="app_halo_label_white">Whitelist from HALO</string>
+  <!-- Halo blacklist -->
+  <string name="app_notification_halo_title">Show notification in HALO</string>
+  <string name="app_notification_halo_summary">Let this app show notifications in HALO</string>
+  <string name="filter_notif_no_halo">No notifications in HALO</string>
+  <string name="notifications_five_items"><xliff:g id="notif_state" example="Priority">%1$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%2$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%3$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%4$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%5$s</xliff:g></string>
+  <string name="halo_color_title">Halo color</string>
+  <string name="halo_color_summary">Defines what color the Halo bubble is</string>
+  <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+  <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
+  <!-- Themes tile entries and values -->
+  <string name="themes_tile_title">Themes tile components</string>
+  <string name="themes_tile_summary">Theme elements to change when a new theme is selected</string>
+  <string name="themes_tile_mods_style_entry">Style</string>
+  <string name="themes_tile_mods_statusbar_entry">Status bar</string>
+  <string name="themes_tile_mods_navbar_entry">Navigation bar</string>
+  <string name="themes_tile_mods_launcher_entry">Wallpaper</string>
+  <string name="themes_tile_mods_lockscreen_entry">Lockscreen wallpaper</string>
+  <string name="themes_tile_mods_font_entry">Font</string>
+  <string name="themes_tile_mods_icons_entry">Icons</string>
+  <string name="themes_tile_mods_bootanim_entry">Boot animation</string>
+  <string name="themes_tile_mods_notification_entry">Notifications</string>
+  <string name="themes_tile_mods_alarm_entry">Alarms</string>
+  <string name="themes_tile_mods_ringtone_entry">Ringtones</string>
 </resources>

@@ -124,49 +124,49 @@
   <string name="misc_3">Sistem</string>
   <string name="misc_4">Parmak izi</string>
   <!-- Color picker -->
-  <string name="color_picker_fragment_title">Color Picker</string>
-  <string name="apply_color_title">Apply color</string>
-  <string name="edit_hex_title">HEX value</string>
+  <string name="color_picker_fragment_title">Renk Seçici</string>
+  <string name="apply_color_title">Renkleri Uygula</string>
+  <string name="edit_hex_title">HEX değeri</string>
   <string name="palette_darkkat_title">Resurrection</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
-  <string name="reset_color_title">Reset</string>
+  <string name="reset_color_title">Sıfırla</string>
   <string name="reset_android_title">Android varsayılan</string>
   <string name="reset_darkkat_title">Özelleştirilmiş renk paleti</string>
   <string name="default_string">Varsayılan</string>
-  <string name="favorites_title">Favorites</string>
-  <string name="hide_favorites_title">Hide favorites</string>
-  <string name="show_favorites_title">Show favorites</string>
-  <string name="hide_help_title">Hide help</string>
-  <string name="show_help_title">Show help</string>
-  <string name="empty_title">Empty</string>
-  <string name="color_picker_help_screen_title">Color Picker help</string>
-  <string name="color_picker_help_ab_title">Action bar:</string>
-  <string name="color_picker_help_ab_back_title">Back button:</string>
-  <string name="color_picker_help_ab_back_summary">Close the color picker without applying the new color, (cancel).\nThis has the same effect as clicking the back button on the navigation bar.</string>
-  <string name="color_picker_help_ab_name_title">Title:</string>
-  <string name="color_picker_help_ab_name_summary">Only shows the title, no additional functions</string>
-  <string name="color_picker_help_ab_color_apply_title">Color preview and apply color:</string>
-  <string name="color_picker_help_ab_color_apply_summary">The color preview is always visible.\nIf the new color doesn\'t equals the old color, the color preview will be expanded, to allow apply the new color.</string>
-  <string name="color_picker_help_ab_menu_title">Menu button:</string>
-  <string name="color_picker_help_ab_menu_reset_title">Reset:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or Darkkat color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_hex_title">Hex value:</string>
-  <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
-  <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
-  <string name="color_picker_help_ab_menu_help_title">Show/hide help:</string>
-  <string name="color_picker_help_ab_menu_help_summary">Shows/hides this help screen.</string>
-  <string name="color_picker_help_colors_title">Colors:</string>
-  <string name="color_picker_help_picker_view_title">Color panel:</string>
-  <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
-  <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(DarkKat, Material and RGB)</string>
-  <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
-  <string name="color_picker_help_button_ok_title">OK</string>
+  <string name="favorites_title">Favoriler</string>
+  <string name="hide_favorites_title">Favorileri gizle</string>
+  <string name="show_favorites_title">Favorileri göster</string>
+  <string name="hide_help_title">Yardımı gizle</string>
+  <string name="show_help_title">Yardımı göster</string>
+  <string name="empty_title">Boş</string>
+  <string name="color_picker_help_screen_title">Renk Seçici yardımı</string>
+  <string name="color_picker_help_ab_title">Görev çubuğu:</string>
+  <string name="color_picker_help_ab_back_title">Geri tuşu:</string>
+  <string name="color_picker_help_ab_back_summary">Yeni rengi uygulamadan renk seçici kapatın, (iptal).\nBu gezinme çubuğunda geri tuşuna tıklamak ile aynı etkiye sahiptir.</string>
+  <string name="color_picker_help_ab_name_title">Başlık:</string>
+  <string name="color_picker_help_ab_name_summary">Sadece başlığı gösterir, hiçbir ek fonksiyon</string>
+  <string name="color_picker_help_ab_color_apply_title">Rengi önizle ve rengi uygula:</string>
+  <string name="color_picker_help_ab_color_apply_summary">Renk önizleme her zaman görünür.\nYeni renk eski renge eşit değilse, renk önizleme genişletilmiş olacak, Yeni rengi uygulamak izin verir.</string>
+  <string name="color_picker_help_ab_menu_title">Menü tuşu:</string>
+  <string name="color_picker_help_ab_menu_reset_title">Sıfırla:</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Yeni renk uygulanmadığında varsayılan Android veya RR rengine sıfırlar.</string>
+  <string name="color_picker_help_ab_menu_hex_title">Hex değeri:</string>
+  <string name="color_picker_help_ab_menu_hex_summary">Hex giriş alanını gösterir.\nHex değerleri onaltılık renk formatında olmalı:\n\'#aarrggbb\', (\'alpa\' (şeffaflık), \'kırmızı\', \'yeşil\' ve \'mavi\').\nGeri tuşu onaltılık değerini ayarlamadan hex giriş alanını kapatır.\nUygulamak tuşu yeni bir renk uygulamadan yeni renk olarak onaltılık değerini ayarlar.</string>
+  <string name="color_picker_help_ab_menu_favorites_title">Favorileri göster/gizle:</string>
+  <string name="color_picker_help_ab_menu_favorites_summary">Favorileri gösterme/gizleme.\nFavorilerin gizlenmesi favori renkleri sıfırlamaz.</string>
+  <string name="color_picker_help_ab_menu_help_title">Yardımı göster/gizle:</string>
+  <string name="color_picker_help_ab_menu_help_summary">Bu yardım ekranını gösterir/gizler.</string>
+  <string name="color_picker_help_colors_title">Renkler:</string>
+  <string name="color_picker_help_picker_view_title">Renk paneli:</string>
+  <string name="color_picker_help_picker_view_summary">Yeni rengi uygulamadan yeni bir renk ayarlamak için bir renk seçin.\nRenk aralığı sağ tarafta kaydırma çubuğunu kullanarak değiştirilebilir.</string>
+  <string name="color_picker_help_color_buttons_title">Renk tuşları:</string>
+  <string name="color_picker_help_favorites_title">Favoriler:</string>
+  <string name="color_picker_help_favorites_summary">Favoriler varsayılan olarak boştur.\nYeni renk, uzun bir tıklama ile herhangi bir zaman favori olarak kaydedilebilir, (yeni renk boş olan bir favorinin üzerine yazılır).\nYeni rengi uygulamadan, bir tık yeni renk olarak favori rengini ayarlar.</string>
+  <string name="color_picker_help_palette_title">Palet: \n(RR, Material ve RGB)</string>
+  <string name="color_picker_help_palette_summary">Tüm palet renkleri sabit bir değere sahiptir.\nYeni rengi uygulamadan, bir tık yeni renk olarak favori rengini ayarlar.</string>
+  <string name="color_picker_help_do_not_show_title">Tekrar gösterme</string>
+  <string name="color_picker_help_button_ok_title">TAMAM</string>
   <!-- RR Extra Info -->
   <string name="brokenextrainfo">Ekstra bilgiler</string>
   <string name="brokenextrainfo_summary">İşlemci, ekran, vb için ekstra bilgi görüntüler</string>
@@ -321,6 +321,7 @@
   <string name="rr_qs">Hızlı Ayarlar</string>
   <string name="rr_brightness_cat">Parlaklık Kaydırıcı</string>
   <string name="rr_qs_title">Hızlı ayarlar paneli</string>
+  <string name="qstile_advanced_category">Gelişmiş</string>
   <!-- Quick settings quick pull down -->
   <string name="status_bar_quick_qs_pulldown_title">Hızlı Aşağı Çekme</string>
   <string name="status_bar_quick_qs_pulldown_summary">Durum çubuğunun Sağ kenarı Hızlı Ayarları aşağı çeker</string>
@@ -431,6 +432,8 @@
   <string name="rr_lockscreen_style">Stiller</string>
   <string name="double_tap_ls">Uyutmak için kilit ekranına çift dokunun</string>
   <string name="double_tap_ls_summary">Kilit ekranında herhangi bir yere iki kez dokunarak cihazı uyku moduna alabilirsiniz</string>
+  <string name="toggle_package_install_overlay_check_title">İzin bindirme kontrolü devre dışı</string>
+  <string name="toggle_package_install_overlay_check_summary">UYARI\u003Bu bir tapjacking önlemek için güvenlik denetimini devre dışı bırakır! Yalnıza sonuçlarını anlıyorsanız kullanın.</string>
   <string name="ls_bouncer_title">Güvenli kilit ekranı koruyucu</string>
   <string name="ls_bouncer_summary">Mevcut bildirim %1$s olduğunda  doğru pin/desen/şifre girildiğinde hemen kilit ekranını aç</string>
   <string name="ls_bouncer_on">Açık (varsayılan)</string>
@@ -457,6 +460,29 @@
   <string name="lockscreen_see_through_title">Kilit Ekranı Bulanıklık</string>
   <string name="lockscreen_see_through_summary">Bulanıklaştırır ve kilit ekranının arkasında ki içeriği görüntüler.</string>
   <string name="lockscreen_blur_radius">Bulanıklık efekti yoğunluğu</string>
+  <string name="rr_settings_blur_cat">Bulanıklık tercihleri</string>
+  <string name="blurred_status_bar_expanded_enabled_pref">Bulanıklık Arkaplan </string>
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Durum çubuğunu aşağı çektiğinizde arka plan bulanıklaşır</string>
+  <string name="translucent_notifications_pref">Yarı saydam Bildirimler</string>
+  <string name="translucent_notifications_pref_summary">Bildirimlerin arka planını yarı saydam olarak ayarlayın</string>
+  <string name="translucent_header_pref">Şeffaf Durum Çubuğu Başlığı </string>
+  <string name="translucent_header_pref_summary">Başlık Şeffaflığını Ayarla</string>
+  <string name="translucent_quick_settings_pref">Şeffaf Hızlı Ayarlar Paneli</string>
+  <string name="translucent_quick_settings_pref_summary">Hızlı Ayarlar Paneli arka plan şeffaflığını ayarla </string>
+  <string name="transluency_level_universal">Şeffaflık seviyesi</string>
+  <string name="blur_expstatus_cat">Genişletilmiş Durum Çubuğu </string>
+  <string name="blur_notifications_cat">Bildirimler</string>
+  <string name="blur_header_cat">Durum Çubuğu Başlığı</string>
+  <string name="blur_qs_cat">Hızlı Ayarlar</string>
+  <string name="blur_recents_cat">Son Kullanılanlar</string>
+  <string name="blurred_recent_app_enabled_pref">Son uygulamalar arka planı bulanıklaştırır </string>
+  <string name="blurred_recent_app_enabled_pref_summary">Bulanık son uygulamalar arka planını</string>
+  <string name="blurred_scale">Bulanıklık Ölçeği</string>
+  <string name="blurred_scale_summary">Bulanık görüntünün kalitesi</string>
+  <string name="blurred_radius">Bulanıklık Yarıçapı</string>
+  <string name="blurred_radius_summary">Bulanıklaştırma miktarı</string>
+  <string name="blur_cat_notice">Uyarı</string>
+  <string name="blur_cat_notice_summary">Bulanıklık tercihleri Tuş kilidi görüntüleme sırasında devre dışı bırakılır! En iyi sonuçları almak için Panel Şeffaflığını kapatın lütfen. Panel Şeffaflığı bulanıklık seçenekleri ile çalışmaz</string>
   <!-- CM Lockscreen shortcuts -->
   <string name="lockscreen_targets_message">Alt kısayollar</string>
   <string name="lockscreen_targets_summary">Alt köşelerdeki kısayolları değiştir</string>
@@ -519,21 +545,23 @@
   <string name="listview_anticipate_overshoot_interpolator">Beklet ve İlerlet</string>
   <string name="listview_bounce_interpolator">Sıçrat</string>
   <!-- Scrolling Animation Controls -->
-  <string name="scrolling_title">Scrolling modifiers</string>
-  <string name="scrolling_summary">View or change scrolling animations</string>
-  <string name="animation_fling_velocity_title">Fling velocity</string>
-  <string name="animation_scroll_friction_title">Scroll friction</string>
-  <string name="animation_overscroll_distance_title">Overscroll distance</string>
-  <string name="animation_overfling_distance_title">Overfling distance</string>
+  <string name="scrolling_title">Kaydırmayı düzenle</string>
+  <string name="scrolling_summary">Kaydırma animasyonlarını görüntüleme veya değiştirme</string>
+  <string name="animation_fling_velocity_title">Fling hızı</string>
+  <string name="animation_scroll_friction_title">Kaydırma sürtünme</string>
+  <string name="animation_overscroll_distance_title">Üzerinde kaydırma mesafesi</string>
+  <string name="animation_overfling_distance_title">Yükselme mesafesi</string>
   <string name="animation_duration_summary">Süreyi ayarla</string>
-  <string name="animation_no_scroll_title">Customized scrolling modifiers</string>
-  <string name="animation_no_scroll_summary_on">Enabled</string>
-  <string name="animation_no_scroll_summary_off">Disabled</string>
-  <string name="scroll_disclaimer_summary">Note: Most apps need to be restarted for custom values to take effect</string>
-  <string name="animation_settings_reset_message">Reset all animation settings to default?</string>
+  <string name="animation_no_scroll_title">Özelleştirilmiş kaydırma düzenleyiciler</string>
+  <string name="animation_no_scroll_summary_on">Etkin</string>
+  <string name="animation_no_scroll_summary_off">Devre dışı</string>
+  <string name="scroll_disclaimer_summary">Not: Çoğu uygulamalar için özel değerlerin etkili olabilmesi için yeniden başlatılması gerekiyor</string>
+  <string name="animation_settings_reset_message">Tüm animasyon ayarları varsayılana sıfırlansın mı?</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Tost simgesi</string>
   <string name="toast_icon_summary">Tost ile gelen uygulama simgesini görüntüler</string>
+  <string name="toast_text_color">Bildirim Yazı Rengi</string>
+  <string name="toast_icon_color">Bildirim Simge Rengi</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Renk seçici</string>
   <string name="press_color_to_apply">Uygulamak için aşağıdaki renge tıklayın</string>
@@ -681,6 +709,14 @@
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Merkez-yansıtmalı</string>
   <string name="battery_bar_style_reversed">Ters</string>
+  <string name="battery_bar_use_gradient_color">Gradyan rengi kullan</string>
+  <string name="battery_bar_gradient_color_summary">Pil seviyesi için bir ölçek olarak gradyan renk kullanın</string>
+  <string name="battery_bar_high_color">Yüksek düzeyde renk\"</string>
+  <string name="battery_bar_low_color">Düşük düzeyde renk\"</string>
+  <string name="battery_bar_hide">Gizle</string>
+  <string name="battery_bar_statusbar">Durum Çubuğu</string>
+  <string name="battery_bar_navbar_top">Gezinti çubuğunun üstü</string>
+  <string name="battery_bar_navbar_bottom">Gezinti çubuğunun altı</string>
   <string name="help">Yardım</string>
   <string name="reset_message">Varsayılan tüm girdiler sıfırlansın mı?</string>
   <string name="attention">Dikkat</string>
@@ -1307,15 +1343,15 @@
   <string name="recent_panel_category">Slim Son Uygulamalar</string>
   <string name="recent_app_sidebar_title">Uygulama kenar çubuğu</string>
   <string name="recent_app_sidebar_summary">Diğer kenarda uygulama kısayolları göster</string>
-  <string name="use_recent_app_sidebar">Enable recent app sidebar</string>
+  <string name="use_recent_app_sidebar">Son uygulamalar kenar çubuğunu etkinleştir</string>
   <string name="recent_app_sidebar_style_title">Kenar çubuğu stili</string>
   <string name="recent_app_sidebar_style_summary">Son uygulamalar kenar çubuğu stilini değiştir</string>
   <string name="recent_app_sidebar_hide_labels_title">Simge etiketlerini gizle</string>
   <string name="recent_app_sidebar_label_color_title">Etiket rengi</string>
   <string name="recent_app_sidebar_bg_color_title">Arka plan rengi</string>
   <string name="recent_app_sidebar_scale_title">Boyut</string>
-  <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
-  <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
+  <string name="recent_app_sidebar_open_simultaneously_title">Son kullanılanlar ile eş zamanlı olarak aç</string>
+  <string name="recent_app_sidebar_open_simultaneously_summary">Bu seçeneği devre dışı bırakarak son kullanılanların açılış sorunlarını azaltır</string>
   <!-- Doze options -->
   <string name="display_category_doze_options_title">Bildirim ekranı</string>
   <string name="doze_settings_title">Gelişmiş ortam ekranı seçenekleri</string>
@@ -1478,7 +1514,7 @@
   <!-- QS shade transparency -->
   <string name="qs_transparent_shade">Hızlı Ayarlar Paneli Şeffaflığı</string>
   <!-- Notifications transparency -->
-  <string name="notifications_transparency">Notifications transparency</string>
+  <string name="notifications_transparency">Bildirim şeffaflığı</string>
   <!-- Safe headset volume restore checkbox -->
   <string name="safe_headset_volume_title">Güvenli kulaklık sesi</string>
   <string name="safe_headset_volume_summary">Kulaklık ilk takıldığında yüksek ses seviyesi önler</string>
@@ -1659,6 +1695,14 @@
   <!-- QS Tiles Rows -->
   <string name="qs_color_switch">Özel Hızlı Ayarlar Renkleri</string>
   <string name="qs_color_switch_summary">Tema Renklerini Geçersiz Kılar.</string>
+  <string name="qs_color_switch">Özel Hızlı Ayarlar Renkleri</string>
+  <string name="qs_custom_master_switch_summary">Hızlı Ayarlar Paneli Kenarlarını Özelleştirin. Kullanım riski size ait. Bazı temalar ile uyumlu olmayabilir.</string>
+  <string name="qs_custom_master_switch_title">Hızlı Ayarlar Köşe ve Kenar</string>
+  <string name="qs_header_master_switch_summary">Başlığının Kenarlarını özelleştirin. Kullanım riski size ait. Bazı temalar ile uyumlu olmayabilir.</string>
+  <string name="qs_header_master_switch_title">Başlık Köşe ve Kenarı</string>
+  <string name="qs_color_switch_summary">Tema Renklerini Geçersiz Kılar.</string>
+  <string name="qs_color_switch_summary_title">Hızlı Ayarlar Paneli Renkleri</string>
+  <string name="qs_color_switch_summary_main">Hızlı Ayarlar Panelinde çeşitli Öğeleri renklendirin. NOT: Ayarlar simgesi renkleri HA simge animasyonunu devre dışı bırakabilir. Kullanım riski size ait</string>
   <string name="qs_header_text_color">Başlık Yazı Rengi</string>
   <string name="qs_header_color">Başlık Arkaplanı</string>
   <string name="qs_text_color">Yazı Rengi</string>
@@ -1668,6 +1712,41 @@
   <string name="qs_brightness_color">Parlaklık Kaydırıcı</string>
   <string name="quick_settings_colors">Hızlı Ayarlar Renkleri</string>
   <string name="qs_colors_summary">Hızlı Ayarlar Paneli Renkleri Özelleştirme</string>
+  <string name="default_qs_colors">Sıfırla</string>
+  <string name="rr_qs_colors">Standart</string>
+  <string name="gradient_qs_colors">Gradyan</string>
+  <string name="rr_qs_colors">Standart</string>
+  <string name="rr_qs_colors_no_icon">Standart Renklendirme Simge Olmadan</string>
+  <string name="gradient_qs_colors_no_icon">Gradyan Renklendirme Simgeler Olmadan</string>
+  <string name="rr_bg_colors_title">Normal</string>
+  <string name="rr_bg_colors_general_title">Genel Renkler</string>
+  <string name="volume_dialog_color_switch_title">Ses Paneli Renkleri</string>
+  <string name="ripple_title">Kaydırıcı Rengi Dalgalanan</string>
+  <string name="brightness_slider_color_title">Parlaklık Kaydırıcı Rengi</string>
+  <string name="brightness_slider_bg_color_title">Parlaklık Kaydırıcı Arkaplan Rengi</string>
+  <string name="header_center_color_title">Başlık Başlatma Rengi</string>
+  <string name="header_background_center_color_title">Başlık Merkezi Rengi</string>
+  <string name="header_background_end_color_title">Başlık Bitiş Rengi</string>
+  <string name="header_background_gradient_orientation_title">Başlık Yönlendirme</string>
+  <!-- Gradient Backgrounds Settings -->
+  <string name="gradient_bg_colors_title">Gradyan Arkaplan Rengi</string>
+  <string name="background_gradient_use_center_color_title">Merkezi rengi kullanın</string>
+  <string name="background_gradient_use_center_color_summary">Merkez rengini gradyan olarak kullanmak için etkinleştirin</string>
+  <string name="background_header_gradient_use_center_color_title">Başlık üzerinde bir merkez renk kullanın</string>
+  <string name="background_header_gradient_use_center_color_summary">Başlıkta merkez rengini gradyan olarak kullanmak için etkinleştirin</string>
+  <string name="background_start_color_title">Başlangıç</string>
+  <string name="background_center_color_title">Merkez</string>
+  <string name="background_end_color_title">Bitiş</string>
+  <string name="background_gradient_orientation_title">Yönlendirme</string>
+  <string name="background_gradient_orientation_dlg_title">Gradyan yönünü seçin</string>
+  <string name="background_gradient_orientation_l_r_title">soldan sağa</string>
+  <string name="background_gradient_orientation_bl_tr_title">sol alttan sağ üste</string>
+  <string name="background_gradient_orientation_b_t_title">alttan üste</string>
+  <string name="background_gradient_orientation_br_tl_title">sağ alttan sol üste</string>
+  <string name="background_gradient_orientation_r_l_title">sağdan sola</string>
+  <string name="background_gradient_orientation_tr_bl_title">sağ üstten sol alta</string>
+  <string name="background_gradient_orientation_t_b_title">üstten alta</string>
+  <string name="background_gradient_orientation_tl_br_title">sol üstten sağ alta</string>
   <!-- Fingerprint Authentication Vibration -->
   <string name="fprint_sucess_vib_title">Parmak izi kimlik doğrulama titreşimi</string>
   <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanması üzerine titre</string>
@@ -1809,6 +1888,7 @@
   <string name="fling_trails_enable_title">Hareket izini etkinleştir</string>
   <string name="fling_trails_enable_summary">Kaydırma hareketleri üzerinde bir iz göster</string>
   <string name="fling_trails_color_title">İz rengi</string>
+  <string name="fling_trails_width_title">İz genişliği</string>
   <string name="fling_appearance">Görünüm</string>
   <string name="fling_show_logo_title">Fling logosu göster</string>
   <string name="fling_animate_logo_title">Logo animasyonu</string>
@@ -1891,12 +1971,15 @@
   <string name="smartbar_config_backup_error_toast">Smartbar profili kaydedilirken hata oluştu</string>
   <string name="smartbar_config_restore_error_toast">Smartbar profil geri yüklenirken hata oluştu</string>
   <!-- Navbar buttons transparency -->
-  <string name="navbar_buttons_alpha_title">Buttons transparency</string>
+  <string name="navbar_buttons_alpha_title">Tuş şeffaflığı</string>
   <!-- QS Tiles Columns -->
   <string name="qs_num_columns_title">Satır başına kare sayısı</string>
   <string name="qs_num_columns_showing">Satır başına gösterilen %1$s kare</string>
   <string name="systemui_tuner_qs_title">Hızlı Ayarlar Kareleri</string>
   <string name="rr_tuner_summary">Ayrıca Bildirim Başlığında Bulunan Ayarlar Düğmesine Uzun Basarakta Ulaşılabilir</string>
+  <string name="qs_3_columns">Üç</string>
+  <string name="qs_4_columns">Dört</string>
+  <string name="qs_5_columns">Beş</string>
   <!-- QuickSettings main tiles -->
   <string name="qs_main_tiles_title">İlk satırı büyüt</string>
   <string name="qs_main_tiles_summary_on">İlk satırda iki ana kareler</string>
@@ -2001,6 +2084,11 @@
   <string name="volume_dialog_corner_radius_title">Ses iletişim köşe çevresi</string>
   <string name="volume_dialog_dash_width_title">Ses paneli indirme genişliği</string>
   <string name="volume_dialog_dash_gap_title">Ses paneli indirme boşluğu</string>
+  <string name="volume_dialog_slider_icon_color_title">Kaydırma Simgesi</string>
+  <string name="volume_dialog_slider_color_title">Kaydırma</string>
+  <string name="volume_dialog_slider_inactive_color_title">Aktif Olmayan Kaydırcı</string>
+  <string name="volume_dialog_expand_button_color_title">Genişletme Tuşu</string>
+  <string name="volume_dialog_icon_title">Simge</string>
   <!-- Volume dialog timeout -->
   <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
   <!-- QS stroke settings -->
@@ -2022,6 +2110,23 @@
   <string name="qs_panel_logo_custom">Özel renk</string>
   <string name="qs_panel_logo_color_title">Hızlı ayarlar paneli logo rengi</string>
   <string name="qs_panel_logo_alpha_title">Hızlı ayarlar paneli logo şeffaflığı</string>
+  <string name="qs_panel_logo_1">Saf</string>
+  <string name="qs_panel_logo_2">Klasik</string>
+  <string name="qs_panel_logo_3">PitchBlack</string>
+  <string name="qs_panel_logo_4">PitchBlack 2</string>
+  <string name="qs_panel_logo_default">Varsayılan</string>
+  <string name="qs_panel_logo_style_title">Logo Stili</string>
+  <!-- Stroke Settings -->
+  <string name="stroke_category_title">Başlık Kenar Ayarları</string>
+  <string name="stroke_title">Kenar</string>
+  <string name="stroke_disabled">Devre dışı</string>
+  <string name="stroke_accent">Vurgu rengi</string>
+  <string name="stroke_custom">Özel renk</string>
+  <string name="stroke_color_title">Kenar Rengi</string>
+  <string name="stroke_thickness_title">Kenar Kalınlığı</string>
+  <string name="corner_radius_title">Köşe Yarçapı</string>
+  <string name="dash_width_title">Kenar Sınır Genişliği</string>
+  <string name="dash_gap_title">Kenar Sınır Boşluğu</string>
   <string name="notification_cat_power">Güç menüsü</string>
   <string name="expansion_view_animation_title">Görev Yöneticisi Animasyonu</string>
   <string name="expansion_view_animation_summary">Panel değişimi giriş/çıkış animasyonunu değiştir</string>
@@ -2033,20 +2138,85 @@
   <string name="expansion_view_animation_rotate">Döndür</string>
   <string name="expansion_view_animation_turn">Çevir</string>
   <string name="expansion_view_animation_up">Yukarı</string>
-  <string name="expansion_view_recents_enter">Recents Enter</string>
-  <string name="expansion_view_fade">Fade</string>
-  <string name="expansion_view_slide_out">Slide</string>
-  <string name="expansion_view_last_app">Last App</string>
-  <string name="expansion_view_rotate">Reverse Rotate</string>
-  <string name="expansion_view_task_open">Task Open</string>
-  <string name="expansion_view_xylon_toast">Toast</string>
-  <string name="expansion_view_search_bar">SearchBar Animation</string>
-  <string name="expansion_view_toko_toast">Toko Toast</string>
+  <string name="expansion_view_recents_enter">Son Kullanılanlar Girişi</string>
+  <string name="expansion_view_fade">Karart</string>
+  <string name="expansion_view_slide_out">Kaydır</string>
+  <string name="expansion_view_last_app">Son Uygulama</string>
+  <string name="expansion_view_rotate">Ters Döndür</string>
+  <string name="expansion_view_task_open">Görev Aç</string>
+  <string name="expansion_view_xylon_toast">Bildirim</string>
+  <string name="expansion_view_search_bar">Arama Çubuğu Animasyonu</string>
+  <string name="expansion_view_toko_toast">Toko Bildirim</string>
   <!-- Development Settings -->
   <!-- ADB always notify -->
-  <string name="adb_always_notify">Debugging always notify</string>
-  <string name="adb_always_notify_summary">Always display a notification when debugging is enabled, even if not connected</string>
+  <string name="adb_always_notify">Hata ayıklamayı herzaman bildir</string>
+  <string name="adb_always_notify_summary">Hata ayıklama etkin olduğunda her zaman bir bildirim görüntüler, hatta bağlı değilken bile</string>
+  <string name="qs_data_tile_advanced_title">Gelişmiş Veri Karesi</string>
+  <string name="qs_data_tile_advanced_summary_on">Veri karesine dokunmak mobil veriyi etkinleştirir/devre dışı bırakır </string>
+  <string name="qs_data_tile_advanced_summary_off">Veri karesine dokunmak ayrıntılı görünümü açar </string>
   <!-- Instant reboot -->
-  <string name="advanced_reboot_oneclick">One click reboot</string>
-  <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
+  <string name="advanced_reboot_oneclick">Tek bir tıklama ile yeniden başlat</string>
+  <string name="advanced_reboot_oneclick_summary">Anında yeniden başlatma eylemini tetikler</string>
+  <!-- Halo -->
+  <string name="rr_halo_enable_title">Halo etkinleştir</string>
+  <string name="rr_halo_enable_summary">Genişletilmiş durum çubuğunda Halo Düğmesini etkinleştirin. Halo yu etkinleştirmek için Durum Çubuğu Başlığında ki Halo simgesine dokunun.</string>
+  <string name="halo_settings_title">Halo</string>
+  <string name="halo_behavior_title">Halo Davranışı</string>
+  <string name="halo_hide_title">Halo yu etkinlikten sonra gizle</string>
+  <string name="halo_hide_summary">Halo gelen görevler için görünür ve bir süre sonra gözden kaybolur</string>
+  <string name="halo_pause_title">Aktif uygulamayı durdur</string>
+  <string name="halo_pause_summary">Halo ile bir uygulamayı açarken asıl uygulama duraklatılır</string>
+  <string name="halo_notification_msgbox_title">Mesaj için açılır pencereyi etkinleştir</string>
+  <string name="halo_notification_msgbox_summary">Gelen bildirimleri için mesaj kutusunu görüntüleyin</string>
+  <string name="halo_unlock_ping_title">Kilit açıldığında görün</string>
+  <string name="halo_unlock_ping_summary">Yeni bildirimler geldiğinde cihaz kilidini açtığınızda Halo görünecektir</string>
+  <string name="halo_size_title">Halo boyutu</string>
+  <string name="halo_size_summary">Halo ne kadar büyük olsun</string>
+  <string name="halo_size_miniscule">Ufak</string>
+  <string name="halo_size_small">Küçük</string>
+  <string name="halo_size_default">Normal (varsayılan)</string>
+  <string name="halo_size_large">Orta</string>
+  <string name="halo_size_gigantic">Devasa</string>
+  <string name="halo_size_monster">Canavar</string>
+  <string name="halo_notification_count_title">Bildirim sayısı</string>
+  <string name="halo_notification_count_summary">Görünen bildirimleri Halo üzerinde sayar</string>
+  <string name="halo_notification_count_none">Hiçbiri</string>
+  <string name="halo_notification_count_total">Tümü</string>
+  <string name="halo_notification_count_individual">Her uygulama için ayrı ayrı</string>
+  <string name="halo_notification_count_both">Her ikisi de</string>
+  <string name="halo_msgbox_animation_title">İleti kutusu animasyonu</string>
+  <string name="halo_msgbox_animation_summary">Halo da, Gelen bildirimler için İleti kutusu animasyonu kullan</string>
+  <string name="halo_msgbox_animation_none">Hiçbiri</string>
+  <string name="halo_msgbox_animation_flip">Çevir</string>
+  <string name="halo_floating_windows">Yüzen pencere seçenekleri</string>
+  <string name="halo_floating_windows_summary">HALO da Yüzen Pencereleri kullanma yada kullanmama seçenekleri kısayolu</string>
+  <string name="halo_floating_notifications_title">Yüzen Modu Kullan</string>
+  <string name="halo_floating_notifications_summary">Etkinlikleri her zaman Yüzen Mod bildirimleri ile başlat.</string>
+  <string name="halo_enable_float_summary">Önce yüzen modu etkinleştirin.</string>
+  <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+  <string name="app_halo_label_black">HALO da kara listeye al</string>
+  <string name="app_halo_label_white">HALO da beyaz listeye al</string>
+  <!-- Halo blacklist -->
+  <string name="app_notification_halo_title">Bildirimleri HALO da göster</string>
+  <string name="app_notification_halo_summary">Bu uygulamadan gelen bildirimleri HALO da göster</string>
+  <string name="filter_notif_no_halo">Bildirimleri HALO da gösterme</string>
+  <string name="notifications_five_items"><xliff:g id="notif_state" example="Priority">%1$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%2$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%3$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%4$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%5$s</xliff:g></string>
+  <string name="halo_color_title">Halo rengi</string>
+  <string name="halo_color_summary">Halo balon renginin ne olacağını seçin</string>
+  <string name="bluetooth_battery_title">Bluetooth pil durumunu göster</string>
+  <string name="bluetooth_battery_summary">Eğer mümkün ise şu anda bağlı olan bluetooth cihazı için pil durumunu göster.</string>
+  <!-- Themes tile entries and values -->
+  <string name="themes_tile_title">Temalar kare bileşenleri</string>
+  <string name="themes_tile_summary">Yeni bir tema seçildiğinde tema öğelerini değiştirmek için</string>
+  <string name="themes_tile_mods_style_entry">Stil</string>
+  <string name="themes_tile_mods_statusbar_entry">Durum çubuğu</string>
+  <string name="themes_tile_mods_navbar_entry">Gezinti çubuğu</string>
+  <string name="themes_tile_mods_launcher_entry">Duvar kağıdı</string>
+  <string name="themes_tile_mods_lockscreen_entry">Kilit ekranı duvar kağıdı</string>
+  <string name="themes_tile_mods_font_entry">Yazı tipi</string>
+  <string name="themes_tile_mods_icons_entry">Simgeler</string>
+  <string name="themes_tile_mods_bootanim_entry">Açılış animasyonları</string>
+  <string name="themes_tile_mods_notification_entry">Bildirimler</string>
+  <string name="themes_tile_mods_alarm_entry">Alarmlar</string>
+  <string name="themes_tile_mods_ringtone_entry">Zil sesleri</string>
 </resources>

@@ -16,6 +16,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to show Device Id -->
+  <plurals name="show_device_id_countdown_cm">
+    <item quantity="one">Gailuaren IDa kontsultatzeko urrats <xliff:g id="step_count">%1$d</xliff:g>era zaude.</item>
+    <item quantity="other">Gailuaren IDa kontsultatzeko <xliff:g id="step_count">%1$d</xliff:g> urratsetara zaude.</item>
+  </plurals>
+  <!--  Device Info screen. Confirmation that Device ID is copied to clipboard -->
+  <string name="show_device_id_copied_cm">Gailuaren IDa:[<xliff:g id="device_id">%1$s</xliff:g>] arbelera kopiatu da</string>
+  <!--  Device Info screen. Confirmation that Device ID is not available -->
+  <string name="show_device_id_failed_cm">Gailuaren IDa ez dago eskuragarri konpilazio honetan</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Label for the deviceID text put to clipboard -->
+  <string name="show_device_id_clipboard_label">Gailuaren IDa</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_cm">
     <item quantity="one">Garapen ezarpenak gaitzeko urrats <xliff:g id="step_count">%1$d</xliff:g>era zaude.</item>
@@ -38,6 +49,9 @@
   <string name="root_access_apps">Aplikazioak bakarrik</string>
   <string name="root_access_adb">ADB bakarrik</string>
   <string name="root_access_all">ADB eta aplikazioak</string>
+  <!-- Preference link for root appops -->
+  <string name="root_appops_title">Kudeatu root sarbideak</string>
+  <string name="root_appops_summary">Ikusi eta kontrolatu root arauak</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
   <!-- About phone screen, CyanogenMod version -->
@@ -261,7 +275,7 @@
   <string name="notification_light_general_title">Orokorra</string>
   <string name="notification_light_applist_title">Aplikazioak</string>
   <string name="notification_light_phonelist_title">Telefonoa</string>
-  <string name="notification_light_use_custom">Balio pertsonalizatuak erabili</string>
+  <string name="notification_light_use_custom">Erabili balio pertsonalizatuak</string>
   <string name="notification_light_default_value">Lehenetsia</string>
   <string name="notification_light_missed_call_title">Dei galdua</string>
   <string name="notification_light_voicemail_title">Ahots postontzia</string>
@@ -549,6 +563,7 @@
   <string name="volume_adjust_sounds_title">Bolumen doitze soinuak</string>
   <!-- Hardware tunables - Vibrator intensity -->
   <string name="vibrator_intensity_title">Bibrazioaren intentsitatea</string>
+  <string name="vibrator_warning">%1$d%% baino gorago dauden balioak ez dira gomendatzen</string>
   <!-- Hardware tunables - Color calibration -->
   <string name="color_calibration_title">Kolore kalibrazioa</string>
   <string name="color_calibration_summary">Pantailaren koloreak kalibratu</string>
@@ -571,23 +586,6 @@
   <string name="display_rotation_90_title">90 gradu</string>
   <string name="display_rotation_180_title">180 gradu</string>
   <string name="display_rotation_270_title">270 gradu</string>
-  <!-- Display settings.  Screen color. -->
-  <string name="screencolor">Pantailaren kolorea</string>
-  <string name="screencolor_summary">Doitu pantailaren ñabardura, saturazioa, kontrastea edo intentsitatea</string>
-  <string name="custom_screencolor">Pertsonalizatutako pantaila kolorea</string>
-  <string name="screencolor_save">Gorde</string>
-  <string name="screencolor_cancel">Utzi</string>
-  <string name="restore_preview">Ikusi lehenetsitako irudia</string>
-  <string name="selectnewfile_menu">Ikusi irudi berria galeriatik</string>
-  <string name="selectfile_menu">Ikusi irudia galeriatik</string>
-  <string name="restore_default_str">Leheneratu</string>
-  <string name="hue_str">Ñabardura:<xliff:g id="hue_value">%1$s</xliff:g></string>
-  <string name="saturation_str">Saturazioa:<xliff:g id="saturation_value">%1$s</xliff:g></string>
-  <string name="contrast_str">Kontrastea:<xliff:g id="contrast_value">%1$s</xliff:g></string>
-  <string name="intensity_str">Intentsitatea:<xliff:g id="intensity_str_value">%1$s</xliff:g></string>
-  <string name="screen_color_standard">Estandarra</string>
-  <string name="screen_color_vivid">Bizia</string>
-  <string name="screen_color_custom">Lehenetsia</string>
   <!-- LiveDisplay -->
   <string name="live_display_summary">Optimizatu zure pantaila eguneko orduaren eta inguruneko baldintzen arabera irakurgarritasuna hobetzeko eta begien nekea gutxiagotzeko</string>
   <string name="live_display_mode">Pantaila modua</string>
@@ -619,6 +617,13 @@
   <string name="live_display_color_profile_basic_summary">Erabili pantaila kalibratu gabe</string>
   <string name="live_display_color_profile_adaptive_title">Moldakorra</string>
   <string name="live_display_color_profile_adaptive_summary">Koloreak inguruko baldintzetara moldatzen dira</string>
+  <!-- LiveDisplay : Picture Adjustment -->
+  <string name="picture_adjustment_title">Irudiaren doikuntza</string>
+  <string name="picture_adjustment_summary">Doitu ñabardura, saturazioa, intentsitatea eta kontrastea</string>
+  <string name="adj_hue_title">Ñabardura</string>
+  <string name="adj_saturation_title">Saturazioa</string>
+  <string name="adj_intensity_title">Intentsitatea</string>
+  <string name="adj_contrast_title">Kontrastea</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Hautaketa ikonoa</string>
   <string name="ime_switcher_notify_summary">Bistaratu sarrera metodoa hautatzeko ikonoa</string>
@@ -785,7 +790,7 @@
   <string name="advanced_reboot_summary">Desblokeatuta dagoenean, erakutsi itzaltze menuan berreskuratze-irudira edo abiarazlera berrabiatzeko edo berrabiatze leuna burutzeko aukerak</string>
   <string name="category_interface">Interfazea</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Mahaigaina hedatu</string>
+  <string name="power_menu_expanded_desktop">Mahaigain hedatua</string>
   <string name="expanded_hide_nothing">Ez ezkutatu ezer</string>
   <string name="expanded_hide_status">Ezkutatu egoera barra</string>
   <string name="expanded_hide_navigation">Ezkutatu nabigazio-barra</string>
@@ -800,7 +805,7 @@
   <string name="kill_app_longpress_back_summary">Hil aurrealdeko aplikazioa atzera botoia luze sakatuz</string>
   <!-- Show/Hide Search Bar -->
   <string name="recents_show_searchbar">Erakutsi bilaketa barra azkenak menuan</string>
-  <string name="keywords_recents_show_searchbar">oraintsukoa oraintsukoak ezgaitu gaitu erakutsi ezkutatu bilatu barra bilaketa-barra</string>
+  <string name="keywords_recents_show_searchbar">azkena azkenak desgaitu gaitu erakutsi ezkutatu bilatu barra bilaketa-barra</string>
   <!-- Voice Wakeup -->
   <string name="voice_wakeup_settings_title">Esnatu ahotsaren bidez</string>
   <string name="voice_wakeup_retrain_title">Ahotsa entrenatu</string>
@@ -1076,4 +1081,5 @@
   <string name="security_settings_fingerprint_sensor_location_left">ezkerraldean</string>
   <string name="security_settings_fingerprint_sensor_location_right">eskuinaldean</string>
   <!-- SIM status format string -->
+  <string name="sim_status_format_string">Ahotsa: <xliff:g id="voice_status">%1$s</xliff:g> / Datuak: <xliff:g id="data_status">%2$s</xliff:g></string>
 </resources>

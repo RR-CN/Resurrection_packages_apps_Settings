@@ -125,49 +125,49 @@ http://forum.resurrectionremix.com/</string>
   <string name="misc_3">Система</string>
   <string name="misc_4">Відбиток пальця</string>
   <!-- Color picker -->
-  <string name="color_picker_fragment_title">Color Picker</string>
-  <string name="apply_color_title">Apply color</string>
-  <string name="edit_hex_title">HEX value</string>
+  <string name="color_picker_fragment_title">Вибір кольору</string>
+  <string name="apply_color_title">Застосувати колір</string>
+  <string name="edit_hex_title">Значення HEX</string>
   <string name="palette_darkkat_title">Resurrection</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
-  <string name="reset_color_title">Reset</string>
+  <string name="reset_color_title">Скинути</string>
   <string name="reset_android_title">Android за промовчанням</string>
   <string name="reset_darkkat_title">Індивідуальні палітри</string>
   <string name="default_string">За замовчуванням</string>
-  <string name="favorites_title">Favorites</string>
-  <string name="hide_favorites_title">Hide favorites</string>
-  <string name="show_favorites_title">Show favorites</string>
-  <string name="hide_help_title">Hide help</string>
-  <string name="show_help_title">Show help</string>
-  <string name="empty_title">Empty</string>
-  <string name="color_picker_help_screen_title">Color Picker help</string>
-  <string name="color_picker_help_ab_title">Action bar:</string>
-  <string name="color_picker_help_ab_back_title">Back button:</string>
-  <string name="color_picker_help_ab_back_summary">Close the color picker without applying the new color, (cancel).\nThis has the same effect as clicking the back button on the navigation bar.</string>
-  <string name="color_picker_help_ab_name_title">Title:</string>
-  <string name="color_picker_help_ab_name_summary">Only shows the title, no additional functions</string>
-  <string name="color_picker_help_ab_color_apply_title">Color preview and apply color:</string>
-  <string name="color_picker_help_ab_color_apply_summary">The color preview is always visible.\nIf the new color doesn\'t equals the old color, the color preview will be expanded, to allow apply the new color.</string>
-  <string name="color_picker_help_ab_menu_title">Menu button:</string>
-  <string name="color_picker_help_ab_menu_reset_title">Reset:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or Darkkat color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_hex_title">Hex value:</string>
-  <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
-  <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
-  <string name="color_picker_help_ab_menu_help_title">Show/hide help:</string>
-  <string name="color_picker_help_ab_menu_help_summary">Shows/hides this help screen.</string>
-  <string name="color_picker_help_colors_title">Colors:</string>
-  <string name="color_picker_help_picker_view_title">Color panel:</string>
-  <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
-  <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(DarkKat, Material and RGB)</string>
-  <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
-  <string name="color_picker_help_button_ok_title">OK</string>
+  <string name="favorites_title">Уподобання</string>
+  <string name="hide_favorites_title">Приховати уподобання</string>
+  <string name="show_favorites_title">Показати уподобання</string>
+  <string name="hide_help_title">Приховати допомогу</string>
+  <string name="show_help_title">Показати допомогу</string>
+  <string name="empty_title">Порожньо</string>
+  <string name="color_picker_help_screen_title">Допомога вибору кольору</string>
+  <string name="color_picker_help_ab_title">Панель дій:</string>
+  <string name="color_picker_help_ab_back_title">Кнопка «Назад»:</string>
+  <string name="color_picker_help_ab_back_summary">Закрити вікно вибору кольору без застосування нового кольору, (скасувати). \nЦе має той же ефект, що і натискання кнопки \"Назад\" на панелі навігації.</string>
+  <string name="color_picker_help_ab_name_title">Заголовок:</string>
+  <string name="color_picker_help_ab_name_summary">Тільки заголовок, немає додаткових функцій</string>
+  <string name="color_picker_help_ab_color_apply_title">Попередній перегляд і застосування кольору:</string>
+  <string name="color_picker_help_ab_color_apply_summary">Попередній перегляд кольору завжди видно. \nЯкщо новий колір не ідентичний старому, то значок буде розширено, що дозволить застосувати новий колір.</string>
+  <string name="color_picker_help_ab_menu_title">Кнопка «Меню»:</string>
+  <string name="color_picker_help_ab_menu_reset_title">Відновити:</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Скидає новий колір на колір Android або RR за замовчуванням без застосування нового кольору.</string>
+  <string name="color_picker_help_ab_menu_hex_title">Значення HEX:</string>
+  <string name="color_picker_help_ab_menu_hex_summary">Показує поле вводу hex-значення.\nЗначення Hex повинні бути в шістнадцятковому кольоровому форматі: \n«#aarrggbb» («альфа» (прозорість), «червоний», «зелений» і «синій»). \nКнопка «Назад» закриває поле вводу без встановлення hex-значення.\n Кнопка «Застосувати» задає hex-значення як новий колір, без застосування нового кольору.</string>
+  <string name="color_picker_help_ab_menu_favorites_title">Показати/приховати уподобання:</string>
+  <string name="color_picker_help_ab_menu_favorites_summary">Показує/приховує уподобання. \nПриховування уподобання не скине уподобані кольори.</string>
+  <string name="color_picker_help_ab_menu_help_title">Показати/приховати допомогу:</string>
+  <string name="color_picker_help_ab_menu_help_summary">Показує/приховує цей екран допомоги.</string>
+  <string name="color_picker_help_colors_title">Кольори:</string>
+  <string name="color_picker_help_picker_view_title">Панель кольору:</string>
+  <string name="color_picker_help_picker_view_summary">Виберіть колір, щоб встановити новий колір, не застосовуючи його. \nКолірна гама може бути змінена за допомогою просунення з правої сторони</string>
+  <string name="color_picker_help_color_buttons_title">Кольорові кнопки:</string>
+  <string name="color_picker_help_favorites_title">Уподобання:</string>
+  <string name="color_picker_help_favorites_summary">Уподобані кольори відсутні за замовчуванням.\nНовий колір можна зберегти в уподобання у будь-який час за допомогою довгого натискання (порожній слот уподобання буде замінений новим кольором). \nНатискання встановлює уподобаний колір як новий колір без застосування нового кольору.</string>
+  <string name="color_picker_help_palette_title">Палітра:\n(RR, Material та RGB)</string>
+  <string name="color_picker_help_palette_summary">Всі кольори палітри мають фіксовані значення. \nНатискання встановлює колір як новий, без застосування нового кольору.</string>
+  <string name="color_picker_help_do_not_show_title">Не показувати знову</string>
+  <string name="color_picker_help_button_ok_title">Гаразд</string>
   <!-- RR Extra Info -->
   <string name="brokenextrainfo">Додаткова інформація</string>
   <string name="brokenextrainfo_summary">Відображення додаткової інформації для процесора, дисплею та ін</string>
@@ -322,6 +322,7 @@ http://forum.resurrectionremix.com/</string>
   <string name="rr_qs">Швидкі налаштування</string>
   <string name="rr_brightness_cat">Повзунок яскравості</string>
   <string name="rr_qs_title">Панель швидких налаштувань </string>
+  <string name="qstile_advanced_category">Розширені</string>
   <!-- Quick settings quick pull down -->
   <string name="status_bar_quick_qs_pulldown_title">Швидкий доступ</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s край рядка сповіщень при опусканні вниз відкриває Швидкі Налаштування</string>
@@ -432,6 +433,8 @@ http://forum.resurrectionremix.com/</string>
   <string name="rr_lockscreen_style">Стилі</string>
   <string name="double_tap_ls">Двічі торкніться на екрані блокування щоб заблокувати</string>
   <string name="double_tap_ls_summary">Двічі натисніть на екрані блокування для переходу в режим сну</string>
+  <string name="toggle_package_install_overlay_check_title">Вимкнути дозвіл перевірки накладення</string>
+  <string name="toggle_package_install_overlay_check_summary">ПОПЕРЕДЖЕННЯ\u003A це вимикає перевірку безпеки для запобігання tapjacking! Використовуйте, лише якщо ви розумієте наслідки.</string>
   <string name="ls_bouncer_title">Безпека пристрою</string>
   <string name="ls_bouncer_summary">Відразу пропонувати введення Pin/пароля/ключа, коли %1$s сповіщень</string>
   <string name="ls_bouncer_on">Ввімкнути (типово)</string>
@@ -458,6 +461,29 @@ http://forum.resurrectionremix.com/</string>
   <string name="lockscreen_see_through_title">Розмиття экрана блокування</string>
   <string name="lockscreen_see_through_summary">Розмиває і відображає зміст за экраном блокування.</string>
   <string name="lockscreen_blur_radius">Інтенсивність ефекту размиття</string>
+  <string name="rr_settings_blur_cat">Налаштування розмиття</string>
+  <string name="blurred_status_bar_expanded_enabled_pref">Розмиття тла </string>
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Розмивати тло, коли ви тягніть вниз рядок стану</string>
+  <string name="translucent_notifications_pref">Прозорі сповіщення</string>
+  <string name="translucent_notifications_pref_summary">Зробити тло сповіщень прозорим</string>
+  <string name="translucent_header_pref">Прозорий заголовок рядка стану </string>
+  <string name="translucent_header_pref_summary">Налаштування прозорості заголовка</string>
+  <string name="translucent_quick_settings_pref">Прозора панель швидких налаштувань</string>
+  <string name="translucent_quick_settings_pref_summary">Налаштування прозорості панелі швидких налаштувань </string>
+  <string name="transluency_level_universal">Рівень прозорості</string>
+  <string name="blur_expstatus_cat">Розширена рядок стану </string>
+  <string name="blur_notifications_cat">Сповіщення</string>
+  <string name="blur_header_cat">Заголовок рядка стану</string>
+  <string name="blur_qs_cat">Швидкі налаштування</string>
+  <string name="blur_recents_cat">Нещодавні</string>
+  <string name="blurred_recent_app_enabled_pref">Розмитий фон нещодавніх </string>
+  <string name="blurred_recent_app_enabled_pref_summary">Розмивати фон нещодавніх додатків</string>
+  <string name="blurred_scale">Шкала розмиття</string>
+  <string name="blurred_scale_summary">Якість розмиття зображення</string>
+  <string name="blurred_radius">Радіус розмиття</string>
+  <string name="blurred_radius_summary">Кількість розмиття</string>
+  <string name="blur_cat_notice">Примітка</string>
+  <string name="blur_cat_notice_summary">Розмиття персоналізації будуть вимкнені під час Keyguard вигляду! Будь ласка, вимкніть панелі Прозорості, щоб отримати кращі результати. Панель Прозорості не буде працювати з опціями для розмиття</string>
   <!-- CM Lockscreen shortcuts -->
   <string name="lockscreen_targets_message">Ярлики в нижніх кутах</string>
   <string name="lockscreen_targets_summary">Налаштування кутових ярликів на екрані блокування</string>
@@ -520,21 +546,23 @@ http://forum.resurrectionremix.com/</string>
   <string name="listview_anticipate_overshoot_interpolator">Прискорити та проскочити</string>
   <string name="listview_bounce_interpolator">Відскакувати</string>
   <!-- Scrolling Animation Controls -->
-  <string name="scrolling_title">Scrolling modifiers</string>
-  <string name="scrolling_summary">View or change scrolling animations</string>
-  <string name="animation_fling_velocity_title">Fling velocity</string>
-  <string name="animation_scroll_friction_title">Scroll friction</string>
-  <string name="animation_overscroll_distance_title">Overscroll distance</string>
-  <string name="animation_overfling_distance_title">Overfling distance</string>
+  <string name="scrolling_title">Модифікатори прокручування</string>
+  <string name="scrolling_summary">Перегляд або зміна анімацій прокручування</string>
+  <string name="animation_fling_velocity_title">Швидкість відкиду</string>
+  <string name="animation_scroll_friction_title">Інтенсивність прокрутки</string>
+  <string name="animation_overscroll_distance_title">Відстань перекрутки</string>
+  <string name="animation_overfling_distance_title">Відстань відскоку</string>
   <string name="animation_duration_summary">Встановити тривалість</string>
-  <string name="animation_no_scroll_title">Customized scrolling modifiers</string>
-  <string name="animation_no_scroll_summary_on">Enabled</string>
-  <string name="animation_no_scroll_summary_off">Disabled</string>
-  <string name="scroll_disclaimer_summary">Note: Most apps need to be restarted for custom values to take effect</string>
-  <string name="animation_settings_reset_message">Reset all animation settings to default?</string>
+  <string name="animation_no_scroll_title">Налаштовувані модифікатори прокручування</string>
+  <string name="animation_no_scroll_summary_on">Увімкнено</string>
+  <string name="animation_no_scroll_summary_off">Вимкнено</string>
+  <string name="scroll_disclaimer_summary">Примітка: Більшість додатків потрібно буде перезапустити, щоб нові значення набули чинності</string>
+  <string name="animation_settings_reset_message">Скинути всі налаштування анімації за заумовчуванням?</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Іконка впливаючого повідомлення</string>
+  <string name="toast_icon_title">Значок спливаючого повідомлення</string>
   <string name="toast_icon_summary">Відображати значок додатка в тост-сповіщеннях</string>
+  <string name="toast_text_color">Колір тексту</string>
+  <string name="toast_icon_color">Колір значка</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палітра кольорів</string>
   <string name="press_color_to_apply">Натисніть на колір щоб застосувати його</string>
@@ -682,6 +710,14 @@ http://forum.resurrectionremix.com/</string>
   <string name="battery_bar_style_regular">Звичайне</string>
   <string name="battery_bar_style_center_mirrored">Дзеркально від центра</string>
   <string name="battery_bar_style_reversed">Змінити на протилежний</string>
+  <string name="battery_bar_use_gradient_color">Використовувати градієнт кольору</string>
+  <string name="battery_bar_gradient_color_summary">Використовувати градієнт в якості шкали для рівня заряду акумулятора</string>
+  <string name="battery_bar_high_color">Колір високого рівня заряду\"</string>
+  <string name="battery_bar_low_color">Колір низького рівня заряду\"</string>
+  <string name="battery_bar_hide">Приховати</string>
+  <string name="battery_bar_statusbar">Рядок стану</string>
+  <string name="battery_bar_navbar_top">Зверху панелі навігації</string>
+  <string name="battery_bar_navbar_bottom">Знизу панелі навігації</string>
   <string name="help">Допомога</string>
   <string name="reset_message">Скинути всі записи за замовчуванням?</string>
   <string name="attention">Увага</string>
@@ -1030,7 +1066,7 @@ http://forum.resurrectionremix.com/</string>
   <string name="status_bar_logo_position_left">Зліва</string>
   <string name="status_bar_logo_position_center">По-центрі</string>
   <string name="status_bar_logo_position_before">Перед значками рядка стану</string>
-  <string name="status_bar_colors_summary">Розфарбувати різні іконки в рядку стану. Замінить кольори теми</string>
+  <string name="status_bar_colors_summary">Розфарбувати різні значки в рядку стану. Замінить кольори теми</string>
   <string name="carrierlabel_summary">Налаштувати текст оператора в рядку стану</string>
   <string name="network_traffic_settings_summary">Налаштувати індикатор трафіку в рядку стану</string>
   <string name="rr_logo_summary">Вибрати різні логотипи RR</string>
@@ -1308,15 +1344,15 @@ http://forum.resurrectionremix.com/</string>
   <string name="recent_panel_category">Недавні додатки від Slim</string>
   <string name="recent_app_sidebar_title">Бічна панель додатків</string>
   <string name="recent_app_sidebar_summary">Показувати ярлики додатків біля правого краю</string>
-  <string name="use_recent_app_sidebar">Enable recent app sidebar</string>
+  <string name="use_recent_app_sidebar">Увімкнути бічну панель додатків</string>
   <string name="recent_app_sidebar_style_title">Вид бічній панелі</string>
   <string name="recent_app_sidebar_style_summary">Змінити вид бічної панелі додатків</string>
   <string name="recent_app_sidebar_hide_labels_title">Сховати підписи значків</string>
   <string name="recent_app_sidebar_label_color_title">Колір мітки</string>
   <string name="recent_app_sidebar_bg_color_title">Колір фону</string>
   <string name="recent_app_sidebar_scale_title">Розмір</string>
-  <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
-  <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
+  <string name="recent_app_sidebar_open_simultaneously_title">Відкривати одночасно з нещодавніми</string>
+  <string name="recent_app_sidebar_open_simultaneously_summary">Зменшити підлагування відкриття нещодавніх, вимкнувши це</string>
   <!-- Doze options -->
   <string name="display_category_doze_options_title">Розширений дисплей</string>
   <string name="doze_settings_title">Додаткові опції doze</string>
@@ -1479,7 +1515,7 @@ http://forum.resurrectionremix.com/</string>
   <!-- QS shade transparency -->
   <string name="qs_transparent_shade">Непрозорість панелі швидких налаштувань</string>
   <!-- Notifications transparency -->
-  <string name="notifications_transparency">Notifications transparency</string>
+  <string name="notifications_transparency">Прозорість сповіщення</string>
   <!-- Safe headset volume restore checkbox -->
   <string name="safe_headset_volume_title">Безпечна гучність гарнітури</string>
   <string name="safe_headset_volume_summary">Запобігти високій гучності при підключенні гарнітури</string>
@@ -1660,6 +1696,14 @@ http://forum.resurrectionremix.com/</string>
   <!-- QS Tiles Rows -->
   <string name="qs_color_switch">Користувацькі кольори</string>
   <string name="qs_color_switch_summary">Змінити кольори.</string>
+  <string name="qs_color_switch">Користувацькі кольори</string>
+  <string name="qs_custom_master_switch_summary">Налаштування межі панелі швидких налаштувань. Використовуйте на свій ризик. Можуть бути не сумісні з деякими темами.</string>
+  <string name="qs_custom_master_switch_title">Кути та межі швидких налаштувань</string>
+  <string name="qs_header_master_switch_summary">Налаштування межі заголовка. Використовуйте на свій ризик. Можуть бути не сумісні з деякими темами.</string>
+  <string name="qs_header_master_switch_title">Кути та межі заголовка</string>
+  <string name="qs_color_switch_summary">Змінити кольори.</string>
+  <string name="qs_color_switch_summary_title">Панель кольорів швидких налаштувань</string>
+  <string name="qs_color_switch_summary_main">Розфарбувати різні елементи на панелі швидких налаштувань. Примітка: Налаштування кольору значків можуть вимкнути анімацію значків швидких налаштувань. Використовуйте на свій ризик</string>
   <string name="qs_header_text_color">Текст розширених швидких налаштувань</string>
   <string name="qs_header_color">Тло заголовка</string>
   <string name="qs_text_color">Колір тексту</string>
@@ -1669,6 +1713,41 @@ http://forum.resurrectionremix.com/</string>
   <string name="qs_brightness_color">Повзунок яскравості</string>
   <string name="quick_settings_colors">Кольори швидких налаштувань і заголовка</string>
   <string name="qs_colors_summary">Налаштувати кольори швидких налаштувань</string>
+  <string name="default_qs_colors">За замовчуванням</string>
+  <string name="rr_qs_colors">Нормальний</string>
+  <string name="gradient_qs_colors">Градієнт</string>
+  <string name="rr_qs_colors">Нормальний</string>
+  <string name="rr_qs_colors_no_icon">Нормальний без розфарбованих значків</string>
+  <string name="gradient_qs_colors_no_icon">Градієнт без розфарбованих значків</string>
+  <string name="rr_bg_colors_title">Звичайний</string>
+  <string name="rr_bg_colors_general_title">Загальні кольори</string>
+  <string name="volume_dialog_color_switch_title">Кольори діалогу гучності</string>
+  <string name="ripple_title">Повзунок кольору пульсації</string>
+  <string name="brightness_slider_color_title">Колір повзунка яскравості</string>
+  <string name="brightness_slider_bg_color_title">Колір фону повзунка яскравості</string>
+  <string name="header_center_color_title">Колір початку заголовка</string>
+  <string name="header_background_center_color_title">Колір центру заголовка</string>
+  <string name="header_background_end_color_title">Колір кінця заголовка</string>
+  <string name="header_background_gradient_orientation_title">Орієнтація заголовка</string>
+  <!-- Gradient Backgrounds Settings -->
+  <string name="gradient_bg_colors_title">Градієнт кольору фону</string>
+  <string name="background_gradient_use_center_color_title">Використовувати колір центру</string>
+  <string name="background_gradient_use_center_color_summary">Дозволяє використовувати колір центру для градієнта</string>
+  <string name="background_header_gradient_use_center_color_title">Використовувати колір центру на заголовку</string>
+  <string name="background_header_gradient_use_center_color_summary">Дозволяє використовувати колір центру для градієнта в заголовку</string>
+  <string name="background_start_color_title">Початок</string>
+  <string name="background_center_color_title">По-центрі</string>
+  <string name="background_end_color_title">Кінець</string>
+  <string name="background_gradient_orientation_title">Орієнтація</string>
+  <string name="background_gradient_orientation_dlg_title">Виберіть орієнтацію градієнта</string>
+  <string name="background_gradient_orientation_l_r_title">зліва направо</string>
+  <string name="background_gradient_orientation_bl_tr_title">з лівого нижнього кута до правого верхнього кута</string>
+  <string name="background_gradient_orientation_b_t_title">знизу вгору</string>
+  <string name="background_gradient_orientation_br_tl_title">з правого нижнього кута до лівого верхнього кута</string>
+  <string name="background_gradient_orientation_r_l_title">справа наліво</string>
+  <string name="background_gradient_orientation_tr_bl_title">з правого верхнього кута до лівого нижнього кута</string>
+  <string name="background_gradient_orientation_t_b_title">згори вниз</string>
+  <string name="background_gradient_orientation_tl_br_title">з лівого верхнього кута до правого нижнього кута</string>
   <!-- Fingerprint Authentication Vibration -->
   <string name="fprint_sucess_vib_title">Вібрація розпізнавання відбитку пальця</string>
   <string name="fprint_sucess_vib_summary">Вібрувати при успішному розпізнавання відбитку пальця</string>
@@ -1810,6 +1889,7 @@ http://forum.resurrectionremix.com/</string>
   <string name="fling_trails_enable_title">Увімкнути сліди від жестів</string>
   <string name="fling_trails_enable_summary">Відображати слід при жестах</string>
   <string name="fling_trails_color_title">Колір сліду</string>
+  <string name="fling_trails_width_title">Ширина сліду</string>
   <string name="fling_appearance">Зовнішній вигляд</string>
   <string name="fling_show_logo_title">Показати логотип Fling</string>
   <string name="fling_animate_logo_title">Анімація логотипу</string>
@@ -1892,12 +1972,15 @@ http://forum.resurrectionremix.com/</string>
   <string name="smartbar_config_backup_error_toast">Помилка при збереженні профілю Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Помилка при відновленні профілю Smartbar</string>
   <!-- Navbar buttons transparency -->
-  <string name="navbar_buttons_alpha_title">Buttons transparency</string>
+  <string name="navbar_buttons_alpha_title">Прозорість кнопок</string>
   <!-- QS Tiles Columns -->
   <string name="qs_num_columns_title">Кількість плиток у ряді</string>
   <string name="qs_num_columns_showing">%1$s плитки(ок) у рядку</string>
   <string name="systemui_tuner_qs_title">Плитки швидких налаштувань</string>
   <string name="rr_tuner_summary">Для доступу до меню також можна утримувати кнопку налаштувань в заголовку панелі сповіщень</string>
+  <string name="qs_3_columns">Три</string>
+  <string name="qs_4_columns">Чотири</string>
+  <string name="qs_5_columns">П’ять</string>
   <!-- QuickSettings main tiles -->
   <string name="qs_main_tiles_title">Збільшити перший рядок</string>
   <string name="qs_main_tiles_summary_on">Дві головні плитки в першому ряду</string>
@@ -2002,6 +2085,11 @@ http://forum.resurrectionremix.com/</string>
   <string name="volume_dialog_corner_radius_title">Радіус обведення діалогово вікна гучності</string>
   <string name="volume_dialog_dash_width_title">Ширина повзунка гучності</string>
   <string name="volume_dialog_dash_gap_title">Товщина повзунка гучності</string>
+  <string name="volume_dialog_slider_icon_color_title">Значок повзунка</string>
+  <string name="volume_dialog_slider_color_title">Повзунок</string>
+  <string name="volume_dialog_slider_inactive_color_title">Неактивний повзунок</string>
+  <string name="volume_dialog_expand_button_color_title">Кнопка розширити</string>
+  <string name="volume_dialog_icon_title">Значок</string>
   <!-- Volume dialog timeout -->
   <string name="volume_dialog_timeout_title">Затримка звукового діалогу</string>
   <!-- QS stroke settings -->
@@ -2023,6 +2111,23 @@ http://forum.resurrectionremix.com/</string>
   <string name="qs_panel_logo_custom">Власний колір</string>
   <string name="qs_panel_logo_color_title">Колір логотипу панелі швидких налаштувань</string>
   <string name="qs_panel_logo_alpha_title">Прозорість логотипу панелі швидких налаштувань</string>
+  <string name="qs_panel_logo_1">Прозорий</string>
+  <string name="qs_panel_logo_2">Класичний</string>
+  <string name="qs_panel_logo_3">PitchBlack</string>
+  <string name="qs_panel_logo_4">PitchBlack 2</string>
+  <string name="qs_panel_logo_default">За замовчуванням</string>
+  <string name="qs_panel_logo_style_title">Стиль логотипу</string>
+  <!-- Stroke Settings -->
+  <string name="stroke_category_title">Параметри межі заголовка</string>
+  <string name="stroke_title">Обведення</string>
+  <string name="stroke_disabled">Вимкнено</string>
+  <string name="stroke_accent">Контрастний колір</string>
+  <string name="stroke_custom">Власний колір</string>
+  <string name="stroke_color_title">Колір обведення</string>
+  <string name="stroke_thickness_title">Товщина обведення</string>
+  <string name="corner_radius_title">Радіус закруглення</string>
+  <string name="dash_width_title">Ширина штриха обведення</string>
+  <string name="dash_gap_title">Розрив штриха обведення</string>
   <string name="notification_cat_power">Меню вимкнення</string>
   <string name="expansion_view_animation_title">Диспетчер завдань анімації</string>
   <string name="expansion_view_animation_summary">Змінити анімацію входу/виходу зміни панелі</string>
@@ -2034,20 +2139,85 @@ http://forum.resurrectionremix.com/</string>
   <string name="expansion_view_animation_rotate">Обертання</string>
   <string name="expansion_view_animation_turn">Черга</string>
   <string name="expansion_view_animation_up">Вгору</string>
-  <string name="expansion_view_recents_enter">Recents Enter</string>
-  <string name="expansion_view_fade">Fade</string>
-  <string name="expansion_view_slide_out">Slide</string>
-  <string name="expansion_view_last_app">Last App</string>
-  <string name="expansion_view_rotate">Reverse Rotate</string>
-  <string name="expansion_view_task_open">Task Open</string>
-  <string name="expansion_view_xylon_toast">Toast</string>
-  <string name="expansion_view_search_bar">SearchBar Animation</string>
+  <string name="expansion_view_recents_enter">Відкриття нещодавніх</string>
+  <string name="expansion_view_fade">Згасання</string>
+  <string name="expansion_view_slide_out">Проведіть</string>
+  <string name="expansion_view_last_app">Останній додаток</string>
+  <string name="expansion_view_rotate">Зворотній поворот</string>
+  <string name="expansion_view_task_open">Відкрите завдання</string>
+  <string name="expansion_view_xylon_toast">Спливаюче оповіщення</string>
+  <string name="expansion_view_search_bar">Анімація рядка пошуку</string>
   <string name="expansion_view_toko_toast">Toko Toast</string>
   <!-- Development Settings -->
   <!-- ADB always notify -->
-  <string name="adb_always_notify">Debugging always notify</string>
-  <string name="adb_always_notify_summary">Always display a notification when debugging is enabled, even if not connected</string>
+  <string name="adb_always_notify">Завжди повідомляти про налагодження</string>
+  <string name="adb_always_notify_summary">Завжди показувати сповіщення, коли увімкнено налагодження, навіть якщо не з\'єднано</string>
+  <string name="qs_data_tile_advanced_title">Додаткова плитка даних</string>
+  <string name="qs_data_tile_advanced_summary_on">Натискання плитки даних увімкне/вимкне мобільні дані </string>
+  <string name="qs_data_tile_advanced_summary_off">Натискання плитки даних відкриє детальний вигляд </string>
   <!-- Instant reboot -->
-  <string name="advanced_reboot_oneclick">One click reboot</string>
-  <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
+  <string name="advanced_reboot_oneclick">Перезавантаження одним натисканням</string>
+  <string name="advanced_reboot_oneclick_summary">Дії які миттєво перезавантажать пристрій</string>
+  <!-- Halo -->
+  <string name="rr_halo_enable_title">Увімкнути Halo</string>
+  <string name="rr_halo_enable_summary">Показувати кнопку Halo в заголовку. Натисніть на значок для увімкнення halo.</string>
+  <string name="halo_settings_title">Halo</string>
+  <string name="halo_behavior_title">Поведінка Halo</string>
+  <string name="halo_hide_title">Приховати Halo після події</string>
+  <string name="halo_hide_summary">Halo буде з\'являтися при вхідних сповіщеннях і ховатися через деякий час</string>
+  <string name="halo_pause_title">Призупинити активний додаток</string>
+  <string name="halo_pause_summary">Поставити на паузу активний додаток, при виконанні дії з Halo</string>
+  <string name="halo_notification_msgbox_title">Включити спливаюче повідомлення</string>
+  <string name="halo_notification_msgbox_summary">Показати вікно повідомлень для вхідних сповіщень</string>
+  <string name="halo_unlock_ping_title">Поява при розблокуванні</string>
+  <string name="halo_unlock_ping_summary">Halo з\'явиться після розблокування пристрою, якщо були отримані нові сповіщення</string>
+  <string name="halo_size_title">Розмір Halo</string>
+  <string name="halo_size_summary">Налаштування розміру Halo</string>
+  <string name="halo_size_miniscule">Крихітний</string>
+  <string name="halo_size_small">Маленький</string>
+  <string name="halo_size_default">Звичайний (за замовчуванням)</string>
+  <string name="halo_size_large">Великий</string>
+  <string name="halo_size_gigantic">Гігантський</string>
+  <string name="halo_size_monster">Велитенський</string>
+  <string name="halo_notification_count_title">Лічильник сповіщень</string>
+  <string name="halo_notification_count_summary">Відображати кількість сповіщень в Halo</string>
+  <string name="halo_notification_count_none">Нічого</string>
+  <string name="halo_notification_count_total">Загалом</string>
+  <string name="halo_notification_count_individual">Для кожного додатка</string>
+  <string name="halo_notification_count_both">Обидва варіанти</string>
+  <string name="halo_msgbox_animation_title">Анімація вікна сповіщення</string>
+  <string name="halo_msgbox_animation_summary">Анімація Halo для вхідних сповіщень</string>
+  <string name="halo_msgbox_animation_none">Нічого</string>
+  <string name="halo_msgbox_animation_flip">Переворот</string>
+  <string name="halo_floating_windows">Налаштування плаваючих вікон</string>
+  <string name="halo_floating_windows_summary">Ярлик до налаштувань плаваючих вікон, тому ви можете використовувати або не використовувати з HALO</string>
+  <string name="halo_floating_notifications_title">Використовувати плаваючий режим</string>
+  <string name="halo_floating_notifications_summary">Завжди запускати дії із сповіщень в плаваючому режимі.</string>
+  <string name="halo_enable_float_summary">Спочатку увімкніть плаваючий режим.</string>
+  <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+  <string name="app_halo_label_black">Чорний список з Halo</string>
+  <string name="app_halo_label_white">Білий список з Halo</string>
+  <!-- Halo blacklist -->
+  <string name="app_notification_halo_title">Показувати сповіщення в Halo</string>
+  <string name="app_notification_halo_summary">Дозволити цьому додатку показувати сповіщення в HALO</string>
+  <string name="filter_notif_no_halo">Немає сповіщень в HALO</string>
+  <string name="notifications_five_items"><xliff:g id="notif_state" example="Priority">%1$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%2$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%3$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%4$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%5$s</xliff:g></string>
+  <string name="halo_color_title">Колір Halo</string>
+  <string name="halo_color_summary">Вибрати колір для Halo</string>
+  <string name="bluetooth_battery_title">Показати заряд Bluetooth-пристроя</string>
+  <string name="bluetooth_battery_summary">Показувати заряд батареї під\'єднаних в даний час bluetooth-пристрої, якщо доступно.</string>
+  <!-- Themes tile entries and values -->
+  <string name="themes_tile_title">Компоненти плитки теми</string>
+  <string name="themes_tile_summary">Елементи теми для зміни при виборі нової теми</string>
+  <string name="themes_tile_mods_style_entry">Стиль</string>
+  <string name="themes_tile_mods_statusbar_entry">Рядок стану</string>
+  <string name="themes_tile_mods_navbar_entry">Панель навігації</string>
+  <string name="themes_tile_mods_launcher_entry">Шпалери</string>
+  <string name="themes_tile_mods_lockscreen_entry">Шпалери екрану блокування</string>
+  <string name="themes_tile_mods_font_entry">Шрифт</string>
+  <string name="themes_tile_mods_icons_entry">Значки</string>
+  <string name="themes_tile_mods_bootanim_entry">Анімація завантаження</string>
+  <string name="themes_tile_mods_notification_entry">Сповіщення</string>
+  <string name="themes_tile_mods_alarm_entry">Будильники</string>
+  <string name="themes_tile_mods_ringtone_entry">Мелодії</string>
 </resources>

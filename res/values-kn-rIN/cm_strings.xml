@@ -16,6 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to show Device Id -->
+  <!--  Device Info screen. Confirmation that Device ID is copied to clipboard -->
+  <!--  Device Info screen. Confirmation that Device ID is not available -->
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Label for the deviceID text put to clipboard -->
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_cm">
     <item quantity="one">ನೀವು ಡೆವಲಪ್‍ಮೆಂಟ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಲು <xliff:g id="step_count">%1$d</xliff:g> ಹಂತದಷ್ತು ದೂರವಿದ್ದೀರಿ.</item>
@@ -38,6 +42,7 @@
   <string name="root_access_apps">ಆಪ್ಸ್ ಮಾತ್ರ</string>
   <string name="root_access_adb">ಎಡಿಬಿ ಮಾತ್ರ</string>
   <string name="root_access_all">ಆಪ್ಸ್ ಮತ್ತು ಎಡಿಬಿ</string>
+  <!-- Preference link for root appops -->
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">ಎನ್ಎಫ್‍ಸಿ</string>
   <!-- About phone screen, CyanogenMod version -->
@@ -568,23 +573,6 @@
   <string name="display_rotation_90_title">90 ಡಿಗ್ರಿ</string>
   <string name="display_rotation_180_title">180 ಡಿಗ್ರಿ</string>
   <string name="display_rotation_270_title">270 ಡಿಗ್ರಿ</string>
-  <!-- Display settings.  Screen color. -->
-  <string name="screencolor">ಪರದೆ ಬಣ್ಣ</string>
-  <string name="screencolor_summary">ಪರದೆ ವರ್ಣ, ಸ್ಯಾಚುರೇಶನ್, ಕಾಂಟ್ರಾಸ್ಟ್ ಅಥವ ತೀವ್ರತೆಯನ್ನು ಸರಿಹೊಂದಿಸಿ</string>
-  <string name="custom_screencolor">ಕಸ್ಟಮ್ ಪರದೆ ಬಣ್ಣ</string>
-  <string name="screencolor_save">ಉಳಿಸು</string>
-  <string name="screencolor_cancel">ರದ್ದು</string>
-  <string name="restore_preview">ಡೀಫಾಲ್ಟ್ ಫೋಟೋ ವೀಕ್ಷಿಸಿ</string>
-  <string name="selectnewfile_menu">ಹೊಸ ಫೋಟೋವನ್ನು ಗ್ಯಾಲರಿಯಿಂದ ವೀಕ್ಷಿಸಿ</string>
-  <string name="selectfile_menu">ಫೋಟೋವನ್ನು ಗ್ಯಾಲರಿಯಿಂದ ವೀಕ್ಷಿಸಿ</string>
-  <string name="restore_default_str">ಮರುಹೊಂದಿಸು</string>
-  <string name="hue_str">ವರ್ಣ: <xliff:g id="hue_value">%1$s</xliff:g></string>
-  <string name="saturation_str">ಸ್ಯಾಚುರೇಶನ್: <xliff:g id="saturation_value">%1$s</xliff:g></string>
-  <string name="contrast_str">ಕಾಂಟ್ರಾಸ್ಟ್: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-  <string name="intensity_str">ತೀವ್ರತೆ: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
-  <string name="screen_color_standard">ಸ್ಟಾಂಡರ್ಡ್</string>
-  <string name="screen_color_vivid">ಎದ್ದುಕಾಣುವ</string>
-  <string name="screen_color_custom">ಕಸ್ಟಮ್</string>
   <!-- LiveDisplay -->
   <string name="live_display_summary">ದಿನದ ಸಮಯ ಮತ್ತು ಆಂಬಿಯೆಂಟ್ ಪರಿಸ್ಥಿತಿಯನ್ನು ಆಧಾರಿಸಿ ನಿಮ್ಮ ಪರದೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡುವುದರ ಮೂಲಕ ವಾಚನೀಯತೆಯನ್ನು ಉತ್ತಮಗೊಳಿಸುವುದರೊಂದಿಗೆ ಕಣ್ಣಿನ ಆಯಾಸವನ್ನು ಕಡಿಮೆ ಮಾಡಿ</string>
   <string name="live_display_mode">ಪ್ರದರ್ಶನ ಮೋಡ್</string>
@@ -614,6 +602,9 @@
   <string name="live_display_color_profile_photography_summary">ಫೊಟೋಗಳಿಗೆ ಪರಿಪೂರ್ಣ ಬಣ್ಣದ ಪುನರುತ್ಪಾದನೆ</string>
   <string name="live_display_color_profile_basic_title">ಮೂಲಭೂತ</string>
   <string name="live_display_color_profile_basic_summary">ಪ್ರದರ್ಶನವು ಅನ್ ಕ್ಯಾಲಿಬರೇಟೆಡ್ ಅನ್ನು ಉಪಯೋಗಿಸಿ</string>
+  <!-- LiveDisplay : Picture Adjustment -->
+  <string name="adj_saturation_title">ಸ್ಯಾಚುರೇಶನ್</string>
+  <string name="adj_contrast_title">ಕಾಂಟ್ರಾಸ್ಟ್</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">ಆಯ್ಕೆಮಾಡುವ ಐಕಾನ್</string>
   <string name="ime_switcher_notify_summary">ಇನ್ಪುಟ್ ವಿಧಾನ ಆಯ್ಕೆಮಾಡುವ ಐಕಾನ್ ಪ್ರದರ್ಶಿಸು</string>
